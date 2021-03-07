@@ -2,6 +2,17 @@
 
 ## A nuxt-based static site boilerplate
 
+### CSS
+
+* scss
+* normalize.css
+
+### Content management
+
+* nuxt content
+* forestry.io
+
+
 ## Build Setup
 
 ```bash
