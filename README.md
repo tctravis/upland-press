@@ -21,7 +21,7 @@
 * git push -u origin master
 
 
-## Build Setup
+## Nuxt build setup
 
 ```bash
 # install dependencies
