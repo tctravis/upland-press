@@ -4,12 +4,14 @@
 
 ### CSS
 
+* BEM methodology [http://getbem.com/introduction/]
 * scss
 * normalize.css
+* style resources nuxt module - [https://www.npmjs.com/package/@nuxtjs/style-resources] (for making sass variables, mixins etc globally available)
 
 ### Content management
 
-* nuxt content
+* nuxt content module [https://content.nuxtjs.org/]
 * forestry.io
 
 ## Starting a new site fron the boilerplate
