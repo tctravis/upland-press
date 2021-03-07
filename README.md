@@ -1,4 +1,6 @@
-# upland-press
+# elbow
+
+## A nuxt-based static site boilerplate
 
 ## Build Setup
 
