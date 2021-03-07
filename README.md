@@ -12,6 +12,14 @@
 * nuxt content
 * forestry.io
 
+## Starting a new site fron the boilerplate
+
+* git clone https://github.com/tctravis/elbow.git new-site-name
+* git remote rm origin
+* create new github repo (REMOTE_URL)
+* git remote add origin  <REMOTE_URL>
+* git push -u origin master
+
 
 ## Build Setup
 
