@@ -12,7 +12,7 @@
 ### Content management
 
 * nuxt content module [https://content.nuxtjs.org/]
-* forestry.io
+* TO DO: forestry.io
 
 ## Starting a new site fron the boilerplate
 

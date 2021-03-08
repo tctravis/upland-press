@@ -39,7 +39,7 @@ export default {
   ],
 
   styleResources: {
-    scss: ['./assets/scss/colors.scss'],
+    scss: ['./assets/scss/config/_index.scss'],
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content

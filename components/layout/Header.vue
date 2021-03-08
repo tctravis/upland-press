@@ -1,7 +1,9 @@
 <template>
-  <header class="header">
-    <Logo>Some text</Logo>
-    <Nav class="header__nav" />
+  <header class="l-header">
+    <div class="l-container">
+      <Logo class="l-header__logo">Elbow</Logo>
+      <Nav class="l-header__nav" />
+    </div>
   </header>
 </template>
 
@@ -17,12 +19,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.header {
-  background-color: $dark-grey;
-  color: $white;
+.l-header {
+  background-color: map-get($header-theme, 'background-color');
+  color: map-get($header-theme, 'color');
   display: flex;
 }
-.header__nav {
+.l-header__nav {
   margin-left: auto;
 }
 </style>
