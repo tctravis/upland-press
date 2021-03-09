@@ -1,6 +1,8 @@
 <template>
   <footer class="l-footer">
-    <p>&copy;2021 Upland Digital</p>
+    <div class="u-container">
+      <p>&copy;2021 Upland Digital</p>
+    </div>
   </footer>
 </template>
 

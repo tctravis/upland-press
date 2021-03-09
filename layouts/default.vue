@@ -2,7 +2,9 @@
   <div class="l-frame">
     <Header class="l-frame__header" />
     <main class="l-frame__main">
-      <Nuxt />
+      <div class="u-container">
+        <Nuxt />
+      </div>
     </main>
     <Footer class="l-frame__footer" />
   </div>
