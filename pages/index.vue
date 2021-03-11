@@ -1,6 +1,7 @@
 <template>
   <main>
     <h1>Upland Press</h1>
+    <nuxt-link to="/prints/the-heights">The Heights</nuxt-link>
     <Button>Button</Button>
     <Card />
   </main>
