@@ -1,3 +1,51 @@
 // global css used across all components
+// see https://cube.fyi/ for css approach
+// see also https://github.com/piccalil-li/cube-css-dashboard/blob/master/scss/global.scss
 
-@import 'config/index';
+@import 'config/gorko';
+@import '~gorko/gorko.scss';
+
+@import 'reset';
+
+body {
+    line-height: 1.5;
+    overflow-x: hidden;
+    padding-bottom: get-size('600');
+
+    @include apply-utility('weight', 'regular');
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: get-size('700');
+}
+
+h2,
+h3 {
+  font-size: get-size('600');
+}
+
+a {
+  color: currentColor;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+}
+
+:focus {
+    outline: 2px dotted;
+    outline-offset: 0.25rem;
+}
+
+@import 'utilities/index';
+

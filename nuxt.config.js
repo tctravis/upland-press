@@ -17,7 +17,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['normalize.css', '@/assets/scss/global.scss'],
+  css: ['@/assets/scss/global.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -36,15 +36,24 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/style-resources',
+    'nuxt-webfontloader',
   ],
 
   styleResources: {
     scss: ['./assets/scss/_style-resources.scss'],
   },
 
+  webfontloader: {
+    google: {
+      families: ['Arvo:400,700'], // Loads Lato font with weights 400 and 700
+    },
+  },
+
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    extractCSS: true,
+  },
 }

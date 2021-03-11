@@ -1,0 +1,19 @@
+.frame {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      'header'
+      'main'
+      'footer';
+    > :first-child {
+      grid-area: header;
+    }
+    > :nth-child(2) {
+      grid-area: main;
+    }
+    > :last-child {
+      grid-area: footer;
+    }
+  }

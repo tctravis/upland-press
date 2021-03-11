@@ -1,3 +1,5 @@
-// mixins, variables, functions loaded into all components
+// mixins, variables, functions loaded into all components using Nuxt Style Resources
 
-@import 'config/index';
+@import 'config/gorko'; 
+@import '~gorko/src/functions/functions';
+@import '~gorko/src/mixins/mixins';

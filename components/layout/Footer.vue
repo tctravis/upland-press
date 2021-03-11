@@ -1,7 +1,7 @@
 <template>
-  <footer class="l-footer">
-    <div class="u-container">
-      <p>&copy;2021 Upland Digital</p>
+  <footer class="[ site-footer ][ bg-dark color-light ]">
+    <div class="[ wrapper flex-row ]">
+      <p class="[ ml-auto ]">&copy;2021 Upland Digital</p>
     </div>
   </footer>
 </template>
@@ -11,8 +11,7 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
-.l-footer {
-  background-color: map-get($header-theme, 'background-color');
-  color: map-get($header-theme, 'color');
+.site-footer {
+  padding: 1rem 0;
 }
 </style>

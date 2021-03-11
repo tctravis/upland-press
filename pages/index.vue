@@ -1,11 +1,20 @@
 <template>
   <main>
     <h1>Upland Press</h1>
+    <Button>Button</Button>
+    <Card />
   </main>
 </template>
 
 <script>
-export default {}
+import Card from '@/components/common/Card.vue'
+import Button from '@/components/ui/Button.vue'
+export default {
+  components: {
+    Button,
+    Card,
+  },
+}
 </script>
 
-<style></style>
+<style lang="scss"></style>

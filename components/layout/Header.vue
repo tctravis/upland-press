@@ -1,9 +1,9 @@
 <template>
-  <header class="l-header">
-    <div class="u-container">
-      <div class="c-navbar">
-        <Logo class="c-navbar__logo">Elbow</Logo>
-        <Nav class="c-navbar__nav" />
+  <header class="[ site-header ] [ bg-dark color-light ]">
+    <div class="[ wrapper ]">
+      <div class="[ navbar ] [ flex-row ]">
+        <Logo>Elbow</Logo>
+        <Nav class="[ ml-auto ]" />
       </div>
     </div>
   </header>
@@ -21,14 +21,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.l-header {
-  background-color: map-get($header-theme, 'background-color');
-  color: map-get($header-theme, 'color');
-}
-.c-navbar {
-  display: flex;
-}
-.c-navbar__nav {
-  margin-left: auto;
+.site-header {
+  padding: 0.8rem 0;
 }
 </style>
