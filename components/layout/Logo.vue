@@ -1,6 +1,6 @@
 <template>
   <div class="logo">
-    <p><slot></slot></p>
+    <nuxt-link to="/"><slot>Site</slot></nuxt-link>
   </div>
 </template>
 

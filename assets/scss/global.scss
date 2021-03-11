@@ -49,3 +49,9 @@ th {
 
 @import 'utilities/index';
 
+.nuxt-content {
+  @extend .flow;
+}
+
+
+
