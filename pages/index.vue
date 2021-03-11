@@ -2,6 +2,7 @@
   <main>
     <h1>Upland Press</h1>
     <nuxt-link to="/prints/the-heights">The Heights</nuxt-link>
+    <nuxt-link to="/prints/gurnal-dubs">Gurnal Dubs</nuxt-link>
     <Button>Button</Button>
     <Card />
   </main>
