@@ -1,7 +1,3 @@
-@import 'config/index';
+// global css used across all components
 
-// utilities
-.u-container {
-    max-width: 600px;
-    margin: 0 auto;
-}
+@import 'config/index';
