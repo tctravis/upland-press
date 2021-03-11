@@ -4,9 +4,10 @@
 
 ### CSS
 
-* BEM methodology [http://getbem.com/introduction/]
+* CUBE CSS - inspiration for mix of utility and component (block) styles [https://piccalil.li/blog/cube-css]
+* BEM naming conventions inside components [http://getbem.com/introduction/]
+* Gorko - generates a set of utility classes from a config file [https://github.com/hankchizljaw/gorko]
 * scss
-* normalize.css
 * style resources nuxt module - [https://www.npmjs.com/package/@nuxtjs/style-resources] (for making sass variables, mixins etc globally available)
 
 ### Content management
