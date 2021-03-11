@@ -1,7 +1,7 @@
 <template>
   <footer class="[ site-footer ][ bg-dark color-light ]">
     <div class="[ wrapper flex-row ]">
-      <p class="[ ml-auto ]">&copy;2021 Upland Digital</p>
+      <p class="[ ml-auto text-300 ]">&copy;2021 Upland Digital</p>
     </div>
   </footer>
 </template>

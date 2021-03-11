@@ -4,7 +4,7 @@
       <!-- our content in here will auto-flow now -->
       <h2>A card header</h2>
       <p>Some text</p>
-      <a href="#">a link</a>
+      <a href="#" class="[ box-block ]">a link</a>
     </div>
   </article>
 </template>

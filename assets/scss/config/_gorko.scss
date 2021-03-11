@@ -3,7 +3,7 @@
 /// you keep it at 1rem because that is the root font size. You
 /// can set it to whatever you like and whatever unit you like.
 ///
-$gorko-base-size: 1.2rem;
+$gorko-base-size: 1rem;
 
 /// SIZE SCALE
 /// This is a Major Third scale that powers all the utilities that
@@ -45,16 +45,16 @@ $gorko-config: (
     'output': 'standard',
     'property': 'color'
   ),
-//   'box': (
-//     'items': (
-//       'block': 'block',
-//       'flex': 'flex',
-//       'hide': 'none',
-//       'show': 'inherit'
-//     ),
-//     'output': 'responsive',
-//     'property': 'display'
-//   ),
+  'box': (
+    'items': (
+      'block': 'block',
+      'flex': 'flex',
+      'hide': 'none',
+      'show': 'inherit'
+    ),
+    'output': 'responsive',
+    'property': 'display'
+  ),
   'font': (
     'items': (
       'base': 'Arvo, Helvetica, Arial, sans-serif'
