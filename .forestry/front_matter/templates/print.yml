@@ -11,11 +11,21 @@ fields:
 - type: text
   name: price
   label: price
-- name: print_image
-  type: file
-  config:
-    maxSize: 64
-  label: Print image
+- name: main_image
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: image
+  - name: alt_text
+    type: text
+    config:
+      required: false
+    label: alt text
+  label: main image
 pages:
 - content/prints/gurnal-dubs.md
 - content/prints/the-heights.md
