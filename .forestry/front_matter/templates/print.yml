@@ -11,5 +11,10 @@ fields:
 - type: text
   name: price
   label: price
+- name: print_image
+  type: file
+  config:
+    maxSize: 64
+  label: Print image
 pages:
 - content/prints/gurnal-dubs.md
