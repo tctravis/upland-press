@@ -7,7 +7,6 @@ sections:
 - type: document
   path: static/data/site-settings.json
   label: Site settings
-  match: "**/*"
 - type: directory
   path: content/pages
   label: Pages
