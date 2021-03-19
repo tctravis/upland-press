@@ -16,6 +16,8 @@ sections:
   label: Prints
   create: all
   match: "**/*"
+  templates:
+  - print
 upload_dir: assets/images
 public_path: ''
 front_matter_path: ''
