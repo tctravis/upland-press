@@ -2,10 +2,10 @@
 label: Page
 hide_body: false
 fields:
-- name: page_title
+- name: title
   type: text
   config:
     required: false
-  label: Page title
+  label: Title
 pages:
 - content/pages/about.md
