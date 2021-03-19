@@ -1,5 +1,5 @@
 <template>
-  <button class="button" v-on="$listeners">
+  <button class="BaseButton" v-on="$listeners">
     <slot />
   </button>
 </template>
@@ -10,7 +10,7 @@ export default {}
 
 <style lang="scss" scoped>
 // https://github.com/piccalil-li/cube-css-dashboard/blob/master/scss/blocks/_button.scss
-.button {
+.BaseButton {
   // @extend .radius;
 
   font: inherit;
@@ -36,9 +36,10 @@ export default {}
   }
 
   &:hover {
-    background: get-color('dark');
-    border-color: get-color('dark');
+    background: get-color('mid');
+    border-color: get-color('mid');
     color: get-color('light');
+    cursor: pointer;
   }
 
   &:active {

@@ -3,21 +3,11 @@
     <PageTitle>Elbow</PageTitle>
     <nuxt-content :document="page" />
     <div class="[ flow ]">
-      <p>Starter theme using Nuxt, Nuxt Content, Forestry</p>
-      <p>Loosely based on content intended for a printmaker's website.</p>
-      <p>
-        A place to build, test and store components for re-use on a variety of
-        Vue/Nuxt-based sites.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
-        obcaecati quaerat fugiat delectus veniam, quas recusandae sed ipsam
-        beatae repudiandae doloribus id. Recusandae dolorum eligendi esse
-        dolorem. Quasi, ex quia.
-      </p>
+      <h2>Base Button</h2>
+      <BaseButton>Button</BaseButton>
+      <h2>Card</h2>
+      <Card />
     </div>
-    <BaseButton>Button</BaseButton>
-    <Card />
   </MainContent>
 </template>
 

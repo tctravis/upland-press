@@ -1,13 +1,20 @@
 <template>
   <footer class="[ site-footer ][ bg-dark color-light ]">
     <div class="[ wrapper flex-row ]">
-      <p class="[ ml-auto text-300 ]">&copy;2021 Upland Digital</p>
+      <p class="[ ml-auto text-300 ]">{{ copyright }}</p>
     </div>
   </footer>
 </template>
 
 <script>
-export default {}
+import { mapState } from 'vuex'
+export default {
+  computed: {
+    ...mapState({
+      copyright: (state) => state.site.copyright,
+    }),
+  },
+}
 </script>
 
 <style lang="scss" scoped>

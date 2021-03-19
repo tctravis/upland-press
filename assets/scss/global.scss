@@ -51,6 +51,7 @@ th {
 
 .nuxt-content {
   @extend .flow;
+  @extend .gap-bottom-500;
 }
 
 

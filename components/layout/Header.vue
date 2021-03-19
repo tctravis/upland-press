@@ -3,7 +3,7 @@
     <div class="[ wrapper ]">
       <div class="[ navbar ] [ flex-row ]">
         <div class="logo">
-          <nuxt-link to="/">Elbow</nuxt-link>
+          <nuxt-link to="/">{{ siteTitle }}</nuxt-link>
         </div>
         <Nav class="[ ml-auto ]" />
       </div>
@@ -12,10 +12,16 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 import Nav from '~/components/blocks/Nav.vue'
 export default {
   components: {
     Nav,
+  },
+  computed: {
+    ...mapState({
+      siteTitle: (state) => state.site.title,
+    }),
   },
 }
 </script>
