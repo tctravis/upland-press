@@ -7,5 +7,10 @@ fields:
   config:
     required: false
   label: Title
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
 pages:
 - content/pages/about.md
