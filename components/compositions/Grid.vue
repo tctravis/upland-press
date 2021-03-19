@@ -1,5 +1,5 @@
 <template>
-  <div class="Grid" data-min="15rem"><slot></slot></div>
+  <div class="Grid"><slot></slot></div>
 </template>
 
 <script>

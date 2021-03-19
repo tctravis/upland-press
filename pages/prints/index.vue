@@ -1,29 +1,32 @@
 <template>
   <MainContent>
     <PageTitle>Prints</PageTitle>
-    <ul>
-      <li v-for="print of prints" :key="print.slug">
-        <NuxtLink :to="print.path">
-          <ImageCaption
-            :src="require(`~/assets/images${print.main_image.image}`)"
-            :alt="print.main_image.alt_text"
-            :caption="print.title"
-          />
-        </NuxtLink>
-      </li>
-    </ul>
+    <Grid data-min="15rem">
+      <div v-for="print of prints" :key="print.slug">
+        <Card
+          :img-src="require(`~/assets/images${print.main_image.image}`)"
+          :img-alt="print.main_image.alt_text"
+          :title="print.title"
+          :link="print.path"
+        />
+      </div>
+    </Grid>
   </MainContent>
 </template>
 
 <script>
+import Grid from '@/components/compositions/Grid.vue'
 import MainContent from '@/components/layout/MainContent.vue'
-import ImageCaption from '@/components/blocks/ImageCaption.vue'
+import Card from '@/components/blocks/Card.vue'
+// import ImageCaption from '@/components/blocks/ImageCaption.vue'
 import PageTitle from '~/components/blocks/PageTitle.vue'
 export default {
   components: {
+    Grid,
+    Card,
     MainContent,
     PageTitle,
-    ImageCaption,
+    // ImageCaption,
   },
   async asyncData({ $content, params }) {
     const prints = await $content('prints')

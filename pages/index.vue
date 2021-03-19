@@ -6,7 +6,7 @@
       <h2>Base Button</h2>
       <BaseButton>Button</BaseButton>
       <h2>Card</h2>
-      <Grid>
+      <Grid data-min="15rem">
         <Card />
         <Card />
         <Card />
@@ -17,8 +17,8 @@
 
 <script>
 import MainContent from '@/components/layout/MainContent.vue'
-import Grid from '@/components/layout/Grid.vue'
 import Card from '@/components/blocks/Card.vue'
+import Grid from '~/components/compositions/Grid.vue'
 import PageTitle from '~/components/blocks/PageTitle.vue'
 import BaseButton from '~/components/ui/BaseButton.vue'
 export default {
