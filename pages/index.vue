@@ -6,19 +6,25 @@
       <h2>Base Button</h2>
       <BaseButton>Button</BaseButton>
       <h2>Card</h2>
-      <Card />
+      <Grid>
+        <Card />
+        <Card />
+        <Card />
+      </Grid>
     </div>
   </MainContent>
 </template>
 
 <script>
 import MainContent from '@/components/layout/MainContent.vue'
+import Grid from '@/components/layout/Grid.vue'
 import Card from '@/components/blocks/Card.vue'
 import PageTitle from '~/components/blocks/PageTitle.vue'
 import BaseButton from '~/components/ui/BaseButton.vue'
 export default {
   components: {
     MainContent,
+    Grid,
     PageTitle,
     BaseButton,
     Card,
