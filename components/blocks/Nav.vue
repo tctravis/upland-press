@@ -1,6 +1,6 @@
 <template>
   <div class="[ site-nav ][ flex-row ]">
-    <nuxt-link to="/about">About</nuxt-link>
+    <nuxt-link to="/pages/about">About</nuxt-link>
     <nuxt-link to="/prints">Prints</nuxt-link>
   </div>
 </template>
