@@ -2,7 +2,9 @@
   <header class="[ site-header ] [ bg-dark color-light ]">
     <div class="[ wrapper ]">
       <div class="[ navbar ] [ flex-row ]">
-        <Logo>Elbow</Logo>
+        <div class="logo">
+          <nuxt-link to="/">Elbow</nuxt-link>
+        </div>
         <Nav class="[ ml-auto ]" />
       </div>
     </div>
@@ -10,11 +12,9 @@
 </template>
 
 <script>
-import Logo from '@/components/layout/Logo.vue'
-import Nav from '@/components/layout/Nav.vue'
+import Nav from '~/components/blocks/Nav.vue'
 export default {
   components: {
-    Logo,
     Nav,
   },
 }

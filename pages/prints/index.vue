@@ -1,25 +1,33 @@
 <template>
-  <div>
-    <h1>Prints</h1>
+  <MainContent>
+    <PageTitle>Prints</PageTitle>
     <ul>
       <li v-for="print of prints" :key="print.slug">
-        {{ print.slug }}
         <NuxtLink :to="print.path">
-          <div>
-            <h2>{{ print.title }}</h2>
-            <p>{{ print.description }}</p>
-          </div>
+          <ImageCaption
+            :src="require(`~/assets/images${print.main_image.image}`)"
+            :alt="print.main_image.alt_text"
+            :caption="print.title"
+          />
         </NuxtLink>
       </li>
     </ul>
-  </div>
+  </MainContent>
 </template>
 
 <script>
+import MainContent from '@/components/layout/MainContent.vue'
+import ImageCaption from '@/components/blocks/ImageCaption.vue'
+import PageTitle from '~/components/blocks/PageTitle.vue'
 export default {
+  components: {
+    MainContent,
+    PageTitle,
+    ImageCaption,
+  },
   async asyncData({ $content, params }) {
     const prints = await $content('prints')
-      .only(['title', 'description', 'path'])
+      .only(['title', 'description', 'path', 'main_image'])
       .sortBy('createdAt', 'asc')
       .fetch()
     return {
