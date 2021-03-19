@@ -8,4 +8,4 @@ fields:
     required: false
   label: Page title
 pages:
-- content/pages/About.md
+- content/pages/about.md
