@@ -4,7 +4,7 @@ description: Last cut of the summer
 price: "70"
 main_image:
   image: "/img_3118-1.jpg"
-  alt_text: ''
+  alt_text: Last cut of the summer
 
 ---
 **Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur egestas porttitor. Praesent commodo nisi ut augue fringilla scelerisque. Curabitur in metus ut nisl bibendum auctor.** 
