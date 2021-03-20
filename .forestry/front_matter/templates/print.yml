@@ -27,5 +27,8 @@ fields:
     label: alt text
   label: main image
 pages:
+- content/prints/cherryburn-chicken.md
 - content/prints/gurnal-dubs.md
+- content/prints/last-cut-of-the-summer.md
 - content/prints/the-heights.md
+- content/prints/whitbarrow-yew.md
