@@ -48,9 +48,10 @@ th {
 }
 
 @import 'utilities/index';
+@import 'compositions/index';
 
 .nuxt-content {
-  @extend .flow;
+  // @extend .flow;
   @extend .gap-bottom-500;
 }
 

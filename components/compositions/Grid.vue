@@ -1,5 +1,5 @@
 <template>
-  <div class="Grid"><slot></slot></div>
+  <div ref="grid" class="Grid"><slot></slot></div>
 </template>
 
 <script>
@@ -8,8 +8,10 @@ export default {
     /* The Grid
     https://github.com/aprietof/every-layout/blob/master/layouts.css
       ----------------------------------------------------------------------- */
+    const self = this
     ;(function observeGrid() {
-      const gridNode = document.querySelector('.Grid')
+      // const gridNode = document.querySelector('.Grid')
+      const gridNode = self.$refs.grid
       // Feature detect ResizeObserver
       if ('ResizeObserver' in window) {
         // Get the min value from data-min="[min]"

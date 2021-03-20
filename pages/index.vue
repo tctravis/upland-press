@@ -5,6 +5,8 @@
     <div class="[ flow ]">
       <h2>Base Button</h2>
       <BaseButton>Button</BaseButton>
+      <h2>Layouts</h2>
+      <nuxt-link to="/layouts/masonry">Masonry</nuxt-link>
       <h2>Card</h2>
       <Grid data-min="15rem">
         <Card />

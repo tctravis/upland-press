@@ -1,0 +1,10 @@
+.masonry {
+    --min: 15rem;
+    --space: 1rem;
+    column-width: var(--min);
+    column-gap: var(--space);
+}
+.masonry > * {
+    margin-bottom: var(--space);
+    break-inside: avoid;
+}
