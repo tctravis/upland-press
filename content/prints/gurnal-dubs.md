@@ -3,7 +3,7 @@ title: Gurnal Dubs
 description: Limited edition linocut print of a small tarn near Kendal
 price: '80.00'
 main_image:
-  image: "/img_2958-1.jpg"
+  image: "/v1616444086/upland-press/gurnal_dubs.jpg"
   alt_text: Gurnal Dubs
 
 ---
