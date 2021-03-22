@@ -15,7 +15,7 @@
       </Grid>
     </div>
     <cld-image
-      :public-id="'gurnal_dubs.jpg'"
+      :public-id="'upland-press/gurnal_dubs.jpg'"
       responsive
       fetch-format="auto"
       quality="auto"
