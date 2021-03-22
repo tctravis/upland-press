@@ -21,10 +21,10 @@ sections:
   match: "**/*"
   templates:
   - print
-upload_dir: assets/images
+upload_dir: upland-press
 public_path: ''
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   install_dependencies_command: npm install
