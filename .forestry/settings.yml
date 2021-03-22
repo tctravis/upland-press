@@ -21,7 +21,7 @@ sections:
   match: "**/*"
   templates:
   - print
-upload_dir: ''
+upload_dir: upland-press
 public_path: ''
 front_matter_path: ''
 use_front_matter_path: 
