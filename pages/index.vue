@@ -14,6 +14,13 @@
         <Card />
       </Grid>
     </div>
+    <cld-image
+      :public-id="'gurnal_dubs.jpg'"
+      responsive
+      fetch-format="auto"
+      quality="auto"
+      alt="An image example with Cloudinary"
+    />
   </MainContent>
 </template>
 
