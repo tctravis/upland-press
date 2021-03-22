@@ -1,6 +1,13 @@
 <template>
   <article class="Card">
-    <BaseImage v-if="imgSrc" :src="imgSrc" :alt="imgAlt" />
+    <!-- <BaseImage v-if="imgSrc" :src="imgSrc" :alt="imgAlt" /> -->
+    <cld-image
+      :public-id="'upland-press/gurnal_dubs.jpg'"
+      responsive
+      fetch-format="auto"
+      quality="auto"
+      alt="An image example with Cloudinary"
+    />
     <div class="[ card__content ] [ flow ]">
       <!-- our content in here will auto-flow now -->
       <h2>
@@ -12,10 +19,10 @@
 </template>
 
 <script>
-import BaseImage from '@/components/ui/BaseImage.vue'
+// import BaseImage from '@/components/ui/BaseImage.vue'
 export default {
   components: {
-    BaseImage,
+    // BaseImage,
   },
   props: {
     title: {

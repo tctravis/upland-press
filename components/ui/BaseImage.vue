@@ -1,5 +1,10 @@
 <template>
-  <img :src="src" :alt="alt" :width="width" :height="height" />
+  <img
+    :src="require(`~/assets/images${src}`)"
+    :alt="alt"
+    :width="width"
+    :height="height"
+  />
 </template>
 
 <script>

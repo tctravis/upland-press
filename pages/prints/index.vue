@@ -4,7 +4,7 @@
     <Grid data-min="15rem">
       <div v-for="print of prints" :key="print.slug">
         <Card
-          :img-src="require(`~/assets/images${print.main_image.image}`)"
+          :img-src="print.main_image.image"
           :img-alt="print.main_image.alt_text"
           :title="print.title"
           :link="print.path"
