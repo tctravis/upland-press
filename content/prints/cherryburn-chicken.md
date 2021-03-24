@@ -3,7 +3,7 @@ title: Cherryburn chicken
 description: Cherryburn chicken
 price: "30"
 main_image:
-  image: "/IMG_3041.jpg"
+  image: "/v1616612800/upland-press/IMG_3041_sff7mv.jpg"
   alt_text: Cherryburn chicken
 
 ---
