@@ -20,7 +20,8 @@
     "normalize.css": "^8.0.1",
     "nuxt": "^2.14.12",
     "nuxt-webfontloader": "^1.1.0",
-    "sass-loader": "10"
+    "sass-loader": "10",
+    "vue-feather-icons": "^5.1.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",

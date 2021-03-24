@@ -2,8 +2,11 @@
   <header class="[ site-header ] [ bg-dark color-light ]">
     <div class="[ wrapper ]">
       <div class="[ navbar ] [ flex-row ]">
-        <div class="logo">
-          <nuxt-link to="/">{{ siteTitle }}</nuxt-link>
+        <div class="[ logo ]">
+          <LinkWithIcon link="/" :link-text-visible="false">
+            <template #linkText>{{ siteTitle }}</template>
+            <template #icon><HomeIcon /></template
+          ></LinkWithIcon>
         </div>
         <Nav class="[ ml-auto ]" />
       </div>
@@ -12,11 +15,15 @@
 </template>
 
 <script>
+import { HomeIcon } from 'vue-feather-icons'
 import { mapState } from 'vuex'
+import LinkWithIcon from '@/components/ui/LinkWithIcon.vue'
 import Nav from '~/components/blocks/Nav.vue'
 export default {
   components: {
+    HomeIcon,
     Nav,
+    LinkWithIcon,
   },
   computed: {
     ...mapState({
