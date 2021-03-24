@@ -1,6 +1,6 @@
 <template>
   <img
-    :src="require(`~/assets/images${src}`)"
+    :src="cloudinaryBaseUrl + src"
     :alt="alt"
     :width="width"
     :height="height"
@@ -29,6 +29,18 @@ export default {
       type: Number,
       required: false,
       default: null,
+    },
+  },
+  data() {
+    return {
+      cloudinaryName: process.env.CLOUDNAME,
+    }
+  },
+  computed: {
+    cloudinaryBaseUrl() {
+      return (
+        'https://res.cloudinary.com/' + this.cloudinaryName + '/image/upload/'
+      )
     },
   },
 }

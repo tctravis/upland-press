@@ -8,7 +8,7 @@
       :alt="print.main_image.alt_text"
     /> -->
     <cld-image
-      :public-id="'upland-press/gurnal_dubs.jpg'"
+      :public-id="print.main_image.image"
       responsive
       fetch-format="auto"
       quality="auto"
