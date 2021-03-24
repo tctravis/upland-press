@@ -15,6 +15,10 @@
 * nuxt content module [https://content.nuxtjs.org/]
 * TO DO: forestry.io
 
+### Image management
+
+* cloudinary [https://cloudinary.com/]
+
 ## Starting a new site fron the boilerplate
 
 * git clone https://github.com/tctravis/elbow.git new-site-name

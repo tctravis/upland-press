@@ -39,7 +39,6 @@ export default {
     '@nuxt/content',
     '@nuxtjs/style-resources',
     'nuxt-webfontloader',
-    '@nuxtjs/cloudinary',
   ],
 
   styleResources: {
@@ -52,16 +51,15 @@ export default {
     },
   },
 
-  cloudinary: {
-    cloudName: process.env.CLOUDNAME,
-    useComponent: true, // use Vue components
-  },
-
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     extractCSS: true,
+  },
+
+  env: {
+    cloudinaryName: process.env.CLOUDNAME,
   },
 }

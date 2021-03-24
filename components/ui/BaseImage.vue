@@ -31,15 +31,12 @@ export default {
       default: null,
     },
   },
-  data() {
-    return {
-      cloudinaryName: process.env.CLOUDNAME,
-    }
-  },
   computed: {
     cloudinaryBaseUrl() {
       return (
-        'https://res.cloudinary.com/' + this.cloudinaryName + '/image/upload/'
+        'https://res.cloudinary.com/' +
+        process.env.cloudinaryName +
+        '/image/upload/'
       )
     },
   },

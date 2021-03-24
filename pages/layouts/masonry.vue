@@ -5,7 +5,7 @@
       <Card
         v-for="print of prints"
         :key="print.slug"
-        :img-src="require(`~/assets/images${print.main_image.image}`)"
+        :img-src="print.main_image.image"
         :img-alt="print.main_image.alt_text"
         :title="print.title"
         :link="print.path"

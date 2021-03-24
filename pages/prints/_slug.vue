@@ -2,17 +2,10 @@
   <MainContent>
     <PageTitle>{{ print.title }}</PageTitle>
     <p>Price: {{ print.price }}</p>
-    <!-- <BaseImage
+    <BaseImage
       v-if="print.main_image"
-      :src="require(`~/assets/images${print.main_image.image}`)"
+      :src="print.main_image.image"
       :alt="print.main_image.alt_text"
-    /> -->
-    <cld-image
-      :public-id="print.main_image.image"
-      responsive
-      fetch-format="auto"
-      quality="auto"
-      alt="An image example with Cloudinary"
     />
     <nuxt-content :document="print" />
   </MainContent>
@@ -21,12 +14,12 @@
 <script>
 import MainContent from '@/components/layout/MainContent.vue'
 import PageTitle from '@/components/blocks/PageTitle.vue'
-// import BaseImage from '~/components/ui/BaseImage.vue'
+import BaseImage from '~/components/ui/BaseImage.vue'
 export default {
   components: {
     MainContent,
     PageTitle,
-    // BaseImage,
+    BaseImage,
   },
   async asyncData({ $content, params }) {
     const print = await $content('prints', params.slug).fetch()
