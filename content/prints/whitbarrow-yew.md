@@ -3,7 +3,7 @@ title: Whitbarrow Yew
 description: Nunc id ex nec mi scelerisque bibendum sit amet ut lacus.
 price: ''
 main_image:
-  image: "/img_3435-1.jpg"
+  image: "/v1616612671/upland-press/IMG_3435_fyofjr.jpg"
   alt_text: Whitbarrow Yew
 
 ---
