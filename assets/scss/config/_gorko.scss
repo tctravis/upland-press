@@ -142,5 +142,11 @@ $gorko-config: (
     'sm': '(min-width: 36em)',
     'md': '(min-width: 48em)',
     'lg': '(min-width: 62em)'
-  )
+  ),
+  // custom
+  'pad': (
+    'items': $gorko-size-scale,
+    'output': 'standard',
+    'property': 'padding'
+  ),
 );

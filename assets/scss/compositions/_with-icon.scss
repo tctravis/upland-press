@@ -1,0 +1,14 @@
+.with-icon {
+    --space: .8rem;
+    --icon-width: 24px;
+    display: inline-grid;
+    align-items: center;
+    grid-template-columns: var(--icon-width, 24px) auto;
+    grid-gap: var(--space, 1rem);
+}
+.with-icon--right {
+    grid-template-columns: auto var(--icon-width, 24px);
+}
+.with-icon--text-hidden {
+    grid-gap: 0;
+}

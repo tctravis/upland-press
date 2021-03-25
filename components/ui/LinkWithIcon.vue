@@ -1,7 +1,7 @@
 <template>
   <nuxt-link class="[ linkWithIcon ][ flex-row ]" :to="link"
     ><span
-      class="linkWithIcon__linkText"
+      class="linkWithIcon__linktext"
       :class="linkTextVisible ? '' : 'visually-hidden'"
       ><slot name="link-text">Link with Icon text</slot></span
     ><span

@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Elbow: a Nuxt-based starter theme for static sites',
+    title: 'Upland Press',
     htmlAttrs: {
       lang: 'en',
     },

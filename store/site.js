@@ -7,4 +7,10 @@ export const state = () => ({
   cloudinary: {
     CLOUDNAME: 'dsovnscbr',
   },
+  contact: {
+    email: 'tobytravis@gmail.com',
+  },
+  social: {
+    instagram: 'https://www.instagram.com/uplandpress/',
+  },
 })
