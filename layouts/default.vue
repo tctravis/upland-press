@@ -2,7 +2,10 @@
   <div class="[ frame ][ vh-full font-base ]">
     <Header />
     <main>
-      <div class="[ wrapper ]">
+      <div class="[ wrapper relative gap-top-900 ]">
+        <p class="[ upland-press ][ text-700 weight-bold color-mid-grey ]">
+          Upland Press
+        </p>
         <Nuxt />
       </div>
     </main>
@@ -26,4 +29,13 @@ export default {
   },
 }
 </script>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.upland-press {
+  position: absolute;
+  transform: rotate(270deg) translate(-226px, 0);
+  transform-origin: top left;
+  top: 0;
+  left: 0;
+  line-height: 1.8;
+}
+</style>

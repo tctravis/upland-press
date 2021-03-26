@@ -1,5 +1,5 @@
 <template>
-  <div class="[ pad-top-700 pad-bottom-700 ]">
+  <div class="[ pad-bottom-700 ]">
     <slot>Body content goes here</slot>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <header class="[ Header ] [ bg-dark color-light ]">
+  <header class="[ Header ] [ bg-dark-grey color-white ]">
     <div class="[ wrapper ]">
       <div class="[ navbar ] [ flex-row ]">
         <div class="[ Header__logo ]">

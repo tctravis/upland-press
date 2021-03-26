@@ -17,9 +17,9 @@ export default {}
   display: inline-block;
   line-height: 1;
   text-decoration: none;
-  border: 1px solid get-color('dark');
-  background: get-color('dark');
-  color: get-color('light');
+  border: 1px solid get-color('dark-grey');
+  background: get-color('dark-grey');
+  color: get-color('light-grey');
   padding: 0.6rem 1.5rem;
   position: relative;
 
@@ -36,9 +36,9 @@ export default {}
   }
 
   &:hover {
-    background: get-color('mid');
-    border-color: get-color('mid');
-    color: get-color('light');
+    background: get-color('mid-grey');
+    border-color: get-color('mid-grey');
+    color: get-color('light-grey');
     cursor: pointer;
   }
 

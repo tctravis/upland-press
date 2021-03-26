@@ -1,17 +1,19 @@
 <template>
-  <nav class="[ site-nav ][ flex-row ]">
-    <nuxt-link to="/pages/about">About</nuxt-link>
-    <nuxt-link to="/prints">Prints</nuxt-link>
+  <nav class="[ Nav ][ cluster ]">
+    <div>
+      <NuxtLinkOrAnchorLink to="/prints">Prints</NuxtLinkOrAnchorLink>
+      <NuxtLinkOrAnchorLink to="/pages/about">About</NuxtLinkOrAnchorLink>
+    </div>
   </nav>
 </template>
 
 <script>
-export default {}
+import NuxtLinkOrAnchorLink from '@/components/ui/NuxtLinkOrAnchorLink.vue'
+export default {
+  components: {
+    NuxtLinkOrAnchorLink,
+  },
+}
 </script>
 
-<style lang="scss" scoped>
-.site-nav {
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-</style>
+<style lang="scss" scoped></style>

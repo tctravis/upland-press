@@ -1,5 +1,5 @@
 <template>
-  <footer class="[ site-footer ][ bg-dark color-light ]">
+  <footer class="[ site-footer ][ bg-dark-grey color-white ]">
     <div class="[ wrapper flex-row ]">
       <p class="[ ml-auto text-300 ]">{{ copyright }}</p>
     </div>

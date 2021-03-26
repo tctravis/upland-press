@@ -1,5 +1,5 @@
 .cluster {
-    --space: 1rem;
+    --space: #{get-size('400')};
     overflow: hidden;
 }
 
