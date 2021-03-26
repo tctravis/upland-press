@@ -48,10 +48,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// .masonry {
-//   --min: 12rem;
-//   --space: 2rem;
-// }
 .content__wrapper {
   width: percentage(3/4);
   @include media-query('sm') {
@@ -74,16 +70,12 @@ export default {
   --space: 1rem;
   & > * {
     break-inside: avoid;
-    margin-bottom: var(--space);
+    padding-bottom: var(--space);
   }
   @include media-query('sm') {
     columns: 2;
     width: percentage(6/7);
   }
-  // @include media-query('md') {
-  //   columns: 2;
-  //   width: percentage(6/7);
-  // }
   @include media-query('lg') {
     columns: 3;
     width: percentage(9/11);
@@ -92,40 +84,10 @@ export default {
 
 .MasonryGallery__summary {
   @include media-query('sm') {
-    // margin-left: calc(((-100% - 4rem) / 3) + 1rem);
     margin-left: -34%;
   }
   @include media-query('lg') {
-    // margin-left: calc(((-100% - 4rem) / 3) + 1rem);
     margin-left: -70%;
   }
-  // @include media-query('md') {
-  //   margin-left: calc(((100% - 4rem) / 3) + 1rem);
-  //   // margin-left: -45%;
-  // }
-  // @include media-query('lg') {
-  //   margin-left: calc(((100% - 4rem) / 3) + 1rem);
-  //   // margin-left: -70%;
-  // }
 }
-// .masonry-with-summary {
-//   display: grid;
-//   @include media-query('sm') {
-//     grid-template-columns: 1fr 3fr, 3fr;
-//     grid-template-rows: auto;
-//     gap: 1.2rem;
-//     // grid-auto-flow: column;
-//     grid-template-areas:
-//       'summary summary prints'
-//       '. prints prints';
-//   }
-//   @include media-query('md') {
-//   }
-// }
-// .masonry-with-summary__text {
-//   grid-area: summary;
-// }
-// .masonry-with-summary__items {
-//   grid-area: prints;
-// }
 </style>

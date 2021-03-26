@@ -1,8 +1,12 @@
 <template>
   <nav class="[ Nav ][ cluster ]">
     <div>
-      <NuxtLinkOrAnchorLink to="/prints">Prints</NuxtLinkOrAnchorLink>
-      <NuxtLinkOrAnchorLink to="/pages/about">About</NuxtLinkOrAnchorLink>
+      <NuxtLinkOrAnchorLink class="[ Nav__link ]" to="/prints"
+        >Prints</NuxtLinkOrAnchorLink
+      >
+      <NuxtLinkOrAnchorLink class="[ Nav__link ]" to="/pages/about"
+        >About</NuxtLinkOrAnchorLink
+      >
     </div>
   </nav>
 </template>
@@ -16,4 +20,13 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.Nav__link {
+  text-transform: lowercase;
+  text-decoration-line: none;
+  @include apply-utility('weight', 'bold');
+  &:hover {
+    text-decoration: underline;
+  }
+}
+</style>
