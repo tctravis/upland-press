@@ -1,25 +1,23 @@
 <template>
   <MainContent>
-    <div class="[ content__wrapper ][ ml-auto ]">
-      <PageTitle>Prints</PageTitle>
-      <div class="[ MasonryGallery ][ ml-auto ]">
-        <div class="[ MasonryGallery__summary ][ flow gap-bottom-500 ]">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Repudiandae optio ipsam debitis iusto maxime nam fuga sunt saepe,
-            vitae consectetur officia repellendus est rem hic. Rem cupiditate
-            odio facilis aperiam.
-          </p>
-        </div>
-        <Card
-          v-for="print of prints"
-          :key="print.slug"
-          :img-src="print.main_image.image"
-          :img-alt="print.main_image.alt_text"
-          :title="print.title"
-          :link="print.path"
-        />
+    <PageTitle>Prints</PageTitle>
+    <div class="[ MasonryGallery ][ ml-auto ]">
+      <div class="[ MasonryGallery__summary ][ flow gap-bottom-500 ]">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
+          optio ipsam debitis iusto maxime nam fuga sunt saepe, vitae
+          consectetur officia repellendus est rem hic. Rem cupiditate odio
+          facilis aperiam.
+        </p>
       </div>
+      <Card
+        v-for="print of prints"
+        :key="print.slug"
+        :img-src="print.main_image.image"
+        :img-alt="print.main_image.alt_text"
+        :title="print.title"
+        :link="print.path"
+      />
     </div>
   </MainContent>
 </template>
@@ -47,15 +45,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.content__wrapper {
-  width: percentage(3/4);
-  @include media-query('sm') {
-    width: percentage(7/8);
-  }
-  @include media-query('md') {
-    width: percentage(11/12);
-  }
-}
 .MasonryGallery__wrapper {
   @include media-query('sm') {
     width: percentage(6/7);

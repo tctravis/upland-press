@@ -10,7 +10,7 @@
 body {
     line-height: 1.5;
     overflow-x: hidden;
-    padding-bottom: get-size('600');
+    // padding-bottom: get-size('600');
 
     @include apply-utility('weight', 'regular');
 }
@@ -61,6 +61,16 @@ th {
   max-width: 60rem;
   @include media-query('sm') {
     padding-inline: 2.5rem;
+  }
+}
+
+.content__wrapper {
+  width: percentage(5/6);
+  @include media-query('sm') {
+    width: percentage(7/8);
+  }
+  @include media-query('md') {
+    width: percentage(11/12);
   }
 }
 

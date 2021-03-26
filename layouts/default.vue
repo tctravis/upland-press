@@ -1,5 +1,5 @@
 <template>
-  <div class="[ frame ][ vh-full font-base ]">
+  <div class="[ vh-full font-base relative ]">
     <Header />
     <main>
       <div class="[ wrapper relative gap-top-900 ]">
@@ -40,7 +40,7 @@ export default {
   left: 0;
   line-height: 1.8;
   @include media-query('sm') {
-    transform: translate(-226px, 0);
+    transform: rotate(270deg) translate(-226px, 0);
   }
 }
 </style>

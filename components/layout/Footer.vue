@@ -1,7 +1,9 @@
 <template>
-  <footer class="[ site-footer ][ bg-dark-grey color-white ]">
+  <footer class="[ Footer relative stack-500 ]">
     <div class="[ wrapper flex-row ]">
-      <p class="[ ml-auto text-300 ]">{{ copyright }}</p>
+      <p class="[ ml-auto text-400 pad-top-600 pad-bottom-600 ]">
+        {{ copyright }}
+      </p>
     </div>
   </footer>
 </template>
@@ -18,7 +20,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.site-footer {
-  padding: 1rem 0;
+.Footer {
 }
 </style>

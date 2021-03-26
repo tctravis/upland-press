@@ -1,5 +1,5 @@
 <template>
-  <div class="[ pad-bottom-700 ]">
+  <div class="[ pad-bottom-700 ][ content__wrapper ][ ml-auto ]">
     <slot>Body content goes here</slot>
   </div>
 </template>
