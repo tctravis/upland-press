@@ -3,7 +3,9 @@
     <Header />
     <main>
       <div class="[ wrapper relative gap-top-900 ]">
-        <p class="[ upland-press ][ text-700 weight-bold color-mid-grey ]">
+        <p
+          class="[ upland-press ][ text-600 sm:text-700 weight-bold color-mid-grey ]"
+        >
           Upland Press
         </p>
         <Nuxt />
@@ -32,10 +34,13 @@ export default {
 <style lang="scss" scoped>
 .upland-press {
   position: absolute;
-  transform: rotate(270deg) translate(-226px, 0);
+  transform: rotate(270deg) translate(-180px, 0);
   transform-origin: top left;
   top: 0;
   left: 0;
   line-height: 1.8;
+  @include media-query('sm') {
+    transform: translate(-226px, 0);
+  }
 }
 </style>

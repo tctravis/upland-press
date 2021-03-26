@@ -55,5 +55,13 @@ th {
   @extend .gap-bottom-500;
 }
 
+.wrapper {
+  margin-inline: auto;
+  padding-inline: 1.8rem;
+  max-width: 60rem;
+  @include media-query('sm') {
+    padding-inline: 2.5rem;
+  }
+}
 
 

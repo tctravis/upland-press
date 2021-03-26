@@ -33,7 +33,6 @@ export default {
     Card,
     MainContent,
     PageTitle,
-    // ImageCaption,
   },
   async asyncData({ $content, params }) {
     const prints = await $content('prints')
