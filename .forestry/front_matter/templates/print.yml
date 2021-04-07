@@ -6,6 +6,10 @@ fields:
   name: title
   label: title
 - type: text
+  name: description
+  label: description
+  description: Used in meta data for this page - include for SEO purposes.
+- type: text
   name: price
   label: price
 - name: edition
@@ -48,9 +52,6 @@ fields:
       required: false
     label: alt text
   label: main image
-- type: text
-  name: description
-  label: description
 pages:
 - content/prints/cherryburn-chicken.md
 - content/prints/gurnal-dubs.md
