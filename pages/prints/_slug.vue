@@ -9,7 +9,7 @@
         />
       </div>
       <div class="[ Print__details ][ flow ]">
-        <h1>{{ print.title }}</h1>
+        <h1 class="[ text-600 ]">{{ print.title }}</h1>
         <p v-show="print.price">£{{ print.price }}</p>
         <p v-show="print.edition">{{ print.edition }}</p>
         <p v-show="print.size">{{ print.size }}</p>
@@ -47,28 +47,56 @@ export default {
   --space: 1.2rem;
   display: grid;
   gap: var(--space);
+
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    'image'
+    'details'
+    'description';
   > * {
+    grid-column: 1 / -1;
+    grid-row: auto;
     text-align: right;
-  }
-  @include media-query('max-sm') {
-    grid-template-columns: 100% !important;
-    grid-template-rows: auto !important;
-    > * {
-      grid-column: 1 / -1 !important;
-      grid-row: auto !important;
-    }
   }
 }
 .Print--standard {
+  @include media-query('sm') {
+    grid-template-columns: minmax(10px, 1fr) minmax(10px, 2fr) minmax(10px, 4fr);
+    grid-template-areas:
+      '. image image'
+      '. . details'
+      '. . description';
+  }
+  @include media-query('md') {
+    grid-template-columns: minmax(10px, 1fr) minmax(10px, 2fr) minmax(10px, 5fr) minmax(
+        10px,
+        3fr
+      );
+    grid-template-areas:
+      '. image image details'
+      '. . description .';
+    .Print__details {
+      text-align: left;
+    }
+    > * {
+      grid-column: auto;
+    }
+  }
 }
 .Print--portrait {
-  grid-template-columns: minmax(10px, 3fr) minmax(10px, 4fr);
-  grid-template-rows: auto;
-  grid-template-areas:
-    'details image'
-    '. description';
-  .Print__details {
-    align-self: end;
+  @include media-query('sm') {
+    grid-template-columns: minmax(10px, 3fr) minmax(10px, 4fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      'details image'
+      '. description';
+    .Print__details {
+      align-self: end;
+    }
+    > * {
+      grid-column: auto;
+    }
   }
   @include media-query('lg') {
     grid-template-columns: minmax(10px, 3fr) minmax(10px, 5fr) minmax(10px, 3fr);
@@ -83,14 +111,19 @@ export default {
   }
 }
 .Print--landscape {
-  grid-template-columns: minmax(10px, 3fr) minmax(10px, 4fr);
-  grid-template-rows: auto;
-  grid-template-areas:
-    'image image'
-    'details .'
-    '. description';
-  .Print__description {
-    text-align: right;
+  @include media-query('sm') {
+    grid-template-columns: minmax(10px, 3fr) minmax(10px, 4fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      'image image'
+      'details .'
+      '. description';
+    .Print__details {
+      text-align: left;
+    }
+    > * {
+      grid-column: auto;
+    }
   }
 }
 .Print__image {
