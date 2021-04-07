@@ -5,6 +5,7 @@ price: "30"
 main_image:
   image: "/v1616612800/upland-press/IMG_3041_sff7mv.jpg"
   alt_text: Cherryburn chicken
+  orientation: Standard
 
 ---
 **Quisque ut iaculis dolor. Nunc cursus vulputate tempus. Nullam non elementum tellus. Curabitur finibus finibus nisl nec pellentesque.** 
