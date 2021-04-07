@@ -143,7 +143,8 @@ $gorko-config: (
   'breakpoints': (
     'sm': '(min-width: 36em)',
     'md': '(min-width: 48em)',
-    'lg': '(min-width: 62em)'
+    'lg': '(min-width: 62em)',
+    'max-sm': '(max-width: 36em)',
   ),
   // custom
   'pad': (
