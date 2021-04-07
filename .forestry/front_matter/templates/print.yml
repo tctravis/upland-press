@@ -15,6 +15,21 @@ fields:
   type: field_group
   config: {}
   fields:
+  - name: orientation
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - Landscape
+      - " Portrait"
+      - Standard
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: orientation
   - name: image
     type: file
     config:
