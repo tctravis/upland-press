@@ -5,6 +5,7 @@ price: "£80"
 main_image:
   image: "/v1616612703/upland-press/fullsizeoutput_22a_nphcte.jpg"
   alt_text: The Heights
+  orientation: " Portrait"
 
 ---
 Gurnal Dubs is a small tarn nestled among heather-clad fells not far from Kendal. Off the tourist trail, it is a popular destination for open-water swimming enthusiasts and families on Sunday rambles. 
