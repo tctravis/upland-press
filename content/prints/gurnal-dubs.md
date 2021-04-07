@@ -5,6 +5,7 @@ price: '80.00'
 main_image:
   image: "/v1616444086/upland-press/gurnal_dubs.jpg"
   alt_text: Gurnal Dubs
+  orientation: Landscape
 
 ---
 **Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et leo quis sem volutpat euismod a vitae erat. Aenean nibh mauris, malesuada nec nisl eu, posuere mollis turpis.** 
