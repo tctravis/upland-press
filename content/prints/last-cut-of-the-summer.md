@@ -5,6 +5,7 @@ price: "70"
 main_image:
   image: "/v1611949894/upland-press/6771F101-DF5A-43EC-A622-5C629C0FFC42_ipt3um.jpg"
   alt_text: Last cut of the summer
+  orientation: " Portrait"
 
 ---
 **Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur egestas porttitor. Praesent commodo nisi ut augue fringilla scelerisque. Curabitur in metus ut nisl bibendum auctor.** 
