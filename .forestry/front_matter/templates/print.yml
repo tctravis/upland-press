@@ -6,11 +6,18 @@ fields:
   name: title
   label: title
 - type: text
-  name: description
-  label: description
-- type: text
   name: price
   label: price
+- name: edition
+  type: text
+  config:
+    required: false
+  label: edition
+- name: size
+  type: text
+  config:
+    required: false
+  label: size
 - name: main_image
   type: field_group
   config: {}
@@ -41,6 +48,9 @@ fields:
       required: false
     label: alt text
   label: main image
+- type: text
+  name: description
+  label: description
 pages:
 - content/prints/cherryburn-chicken.md
 - content/prints/gurnal-dubs.md
