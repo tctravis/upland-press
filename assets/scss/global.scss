@@ -53,6 +53,9 @@ th {
 .nuxt-content {
   @extend .flow;
   // @extend .gap-bottom-500;
+  :first-of-type {
+    @extend .weight-bold;
+  }
 }
 
 .wrapper {

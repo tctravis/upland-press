@@ -3,10 +3,10 @@
     <BaseImage v-if="imgSrc" :src="imgSrc" :alt="imgAlt" />
     <div class="[ card__content ] [ flow ]">
       <!-- our content in here will auto-flow now -->
-      <h2>
+      <h2 class="text-500">
         <NuxtLink :to="link">{{ title }}</NuxtLink>
       </h2>
-      <div>{{ text }}</div>
+      <div v-if="text !== ''">{{ text }}</div>
     </div>
   </article>
 </template>
@@ -26,8 +26,7 @@ export default {
     text: {
       type: String,
       required: false,
-      default:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, tempore maxime sunt dicta illo facere, quasi ipsa maiores asperiores dolorem a, voluptatem esse assumenda temporibus quas atque eius neque officia.',
+      default: '',
     },
     imgSrc: {
       type: String,

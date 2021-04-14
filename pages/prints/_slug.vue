@@ -9,12 +9,11 @@
         />
       </div>
       <div class="[ Print__details ][ flow ]">
-        <h1 class="[ text-600 ]">{{ print.title }}</h1>
+        <h1 class="[ text-500 ]">{{ print.title }}</h1>
         <p v-show="print.price">£{{ print.price }}</p>
         <p v-show="print.edition">{{ print.edition }}</p>
         <p v-show="print.size">{{ print.size }}</p>
       </div>
-
       <div class="[ Print__description ]">
         <nuxt-content :document="print" />
       </div>
@@ -69,55 +68,58 @@ export default {
       '. . description';
   }
   @include media-query('md') {
-    grid-template-columns: minmax(10px, 1fr) minmax(10px, 2fr) minmax(10px, 5fr) minmax(
-        10px,
-        3fr
-      );
+    grid-template-columns: minmax(10px, 1fr) minmax(10px, 3fr) minmax(10px, 7fr);
     grid-template-areas:
-      '. image image details'
-      '. . description .';
-    .Print__details {
-      text-align: left;
-    }
+      '. details image'
+      '. . description';
     > * {
       grid-column: auto;
     }
+    .Print__details {
+      align-self: end;
+    }
+  }
+  @include media-query('lg') {
+    grid-template-columns: minmax(10px, 1fr) minmax(10px, 4fr) minmax(10px, 7fr);
   }
 }
 .Print--portrait {
   @include media-query('sm') {
-    grid-template-columns: minmax(10px, 3fr) minmax(10px, 4fr);
-    grid-template-rows: auto;
+    grid-template-columns: minmax(10px, 1fr) minmax(10px, 2fr) minmax(10px, 5fr);
     grid-template-areas:
-      'details image'
-      '. description';
-    .Print__details {
-      align-self: end;
-    }
+      '. image image'
+      '. . details'
+      '. . description';
     > * {
       grid-column: auto;
     }
   }
-  @include media-query('lg') {
-    grid-template-columns: minmax(10px, 3fr) minmax(10px, 5fr) minmax(10px, 3fr);
-    grid-template-areas: 'description image details';
-    .Print__description {
-      align-self: end;
-    }
+  @include media-query('md') {
+    grid-template-columns: minmax(10px, 1fr) minmax(10px, 3fr) minmax(10px, 7fr);
+    grid-template-areas:
+      '. details image'
+      '. . description';
     .Print__details {
-      align-self: start;
-      text-align: left;
+      align-self: end;
     }
   }
 }
 .Print--landscape {
   @include media-query('sm') {
-    grid-template-columns: minmax(10px, 3fr) minmax(10px, 4fr);
-    grid-template-rows: auto;
+    grid-template-columns: minmax(10px, 2fr) minmax(10px, 5fr);
     grid-template-areas:
       'image image'
-      'details .'
+      'details details'
       '. description';
+  }
+  @include media-query('md') {
+    grid-template-columns: minmax(10px, 4fr) minmax(10px, 7fr);
+  }
+  @include media-query('lg') {
+    grid-template-columns: minmax(10px, 5fr) minmax(10px, 6fr);
+    grid-template-areas:
+      'image image'
+      'details description';
     .Print__details {
       text-align: left;
     }
