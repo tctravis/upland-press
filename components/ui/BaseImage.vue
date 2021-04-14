@@ -1,5 +1,12 @@
 <template>
-  <img :src="src" :alt="alt" :srcSet="srcSet" :width="width" :height="height" />
+  <img
+    :src="src"
+    :alt="alt"
+    :srcSet="srcSet"
+    :sizes="sizes"
+    :width="width"
+    :height="height"
+  />
 </template>
 
 <script>
@@ -11,6 +18,11 @@ export default {
       default: '',
     },
     srcSet: {
+      type: String,
+      required: false,
+      default: null,
+    },
+    sizes: {
       type: String,
       required: false,
       default: null,

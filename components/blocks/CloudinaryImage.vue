@@ -1,5 +1,11 @@
+/* eslint-disable camelcase */
 <template>
-  <BaseImage :src="cloudinarySrc" :alt="alt" :src-set="cloudinarySrcSet" />
+  <BaseImage
+    :src="cloudinarySrc"
+    :alt="alt"
+    :src-set="cloudinarySrcSet"
+    :sizes="srcSetSizes"
+  />
 </template>
 
 <script>
@@ -19,31 +25,34 @@ export default {
       required: false,
       default: '',
     },
-    maxWidth: {
-      type: Number,
+    srcSetWidths: {
+      type: Array,
       required: false,
-      default: 1000,
+      default() {
+        return [300, 600, 1200]
+      },
+    },
+    srcSetSizes: {
+      type: String,
+      required: false,
+      default: '70vmin',
     },
   },
   computed: {
     cloudinarySrc() {
-      return (
-        this.cloudinaryBaseUrl + this.cloudinaryBaseTransformation + this.src
-      )
+      return this.getCloudinaryImageUrl({
+        width: this.srcSetWidths[0],
+      })
     },
     cloudinarySrcSet() {
-      return (
-        this.cloudinaryBaseUrl +
-        this.cloudinary2xTransformation +
-        this.src +
-        ' 2x'
-      )
-    },
-    cloudinaryBaseTransformation() {
-      return 'c_scale,dpr_1.0,w_' + this.maxWidth + '/q_auto/'
-    },
-    cloudinary2xTransformation() {
-      return 'c_scale,dpr_2.0,w_' + this.maxWidth + '/q_auto/'
+      const cloudinarySrcSet = []
+      this.srcSetWidths.forEach((srcSetWidth) => {
+        const cloudinaryImage = this.getCloudinaryImageUrl({
+          width: srcSetWidth,
+        })
+        cloudinarySrcSet.push(cloudinaryImage + ' ' + srcSetWidth + 'w')
+      })
+      return cloudinarySrcSet.toString()
     },
     cloudinaryBaseUrl() {
       return (
@@ -51,6 +60,20 @@ export default {
         process.env.cloudinaryName +
         '/image/upload/'
       )
+    },
+  },
+  methods: {
+    // build cloudinary url
+    getCloudinaryImageUrl(transformations, publicId) {
+      const transformationStr = this.getTransformationStr(transformations)
+      return this.cloudinaryBaseUrl + transformationStr + this.src
+    },
+    getTransformationStr(transformations) {
+      const dpr = transformations.dpr ? transformations.dpr : '1.0'
+      const transformationStr =
+        'c_scale,dpr_' + dpr + ',w_' + transformations.width + '/q_auto'
+
+      return transformationStr
     },
   },
 }

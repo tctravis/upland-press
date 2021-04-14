@@ -6,7 +6,8 @@
           v-if="print.main_image"
           :src="print.main_image.image"
           :alt="print.main_image.alt_text"
-          :max-width="printImageMaxWidth"
+          :src-set-widths="[400, 800]"
+          src-set-sizes="70vw, (min-width: 48em) 33vw, (min-width:62em) 20vw"
         />
       </div>
       <div class="[ Print__details ][ flow ]">

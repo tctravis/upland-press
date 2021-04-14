@@ -2,7 +2,12 @@
   <article class="Card">
     <div v-if="imgSrc" class="[ Card__image ]">
       <NuxtLink :to="link">
-        <CloudinaryImage :src="imgSrc" :alt="imgAlt" max-width="340" />
+        <CloudinaryImage
+          :src="imgSrc"
+          :alt="imgAlt"
+          :src-set-widths="[400, 800]"
+          src-set-sizes="70vw, (min-width: 48em) 33vw, (min-width:62em) 20vw"
+        />
       </NuxtLink>
     </div>
     <div class="[ Card__content ] [ flow ]">
