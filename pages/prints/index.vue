@@ -55,7 +55,7 @@ export default {
 }
 .MasonryGallery {
   column-gap: 1.2rem;
-  --space: 1rem;
+  --space: 2rem;
   & > * {
     break-inside: avoid;
     padding-bottom: var(--space);

@@ -29,6 +29,19 @@ export default {
       },
     }
   },
+  mounted() {
+    this.runA11yTest()
+  },
+  methods: {
+    runA11yTest() {
+      if (process.env.NODE_ENV === 'development') {
+        // const axe = this.$axe
+        setTimeout(() => {
+          this.$axe.run()
+        }, 5000)
+      }
+    },
+  },
 }
 </script>
 <style lang="scss" scoped>

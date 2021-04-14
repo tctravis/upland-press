@@ -1,9 +1,13 @@
 <template>
   <article class="Card">
-    <BaseImage v-if="imgSrc" :src="imgSrc" :alt="imgAlt" />
-    <div class="[ card__content ] [ flow ]">
+    <div v-if="imgSrc" class="[ Card__image ]">
+      <NuxtLink :to="link">
+        <CloudinaryImage :src="imgSrc" :alt="imgAlt" max-width="340" />
+      </NuxtLink>
+    </div>
+    <div class="[ Card__content ] [ flow ]">
       <!-- our content in here will auto-flow now -->
-      <h2 class="text-500">
+      <h2 class="Card__title text-500">
         <NuxtLink :to="link">{{ title }}</NuxtLink>
       </h2>
       <div v-if="text !== ''">{{ text }}</div>
@@ -12,10 +16,12 @@
 </template>
 
 <script>
-import BaseImage from '@/components/ui/BaseImage.vue'
+// import BaseImage from '@/components/ui/BaseImage.vue'
+import CloudinaryImage from '@/components/blocks/CloudinaryImage.vue'
 export default {
   components: {
-    BaseImage,
+    // BaseImage,
+    CloudinaryImage,
   },
   props: {
     title: {
@@ -48,8 +54,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.Card {
+.Card__image {
+  &:hover {
+    & + .Card__content .Card__title a {
+      text-decoration: underline;
+    }
+  }
 }
-.Card__content {
+.Card__title {
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 </style>

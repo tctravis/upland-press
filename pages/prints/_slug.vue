@@ -2,10 +2,11 @@
   <MainContent>
     <div class="[ Print ]" :class="printClass">
       <div class="[ Print__image ]">
-        <BaseImage
+        <CloudinaryImage
           v-if="print.main_image"
           :src="print.main_image.image"
           :alt="print.main_image.alt_text"
+          :max-width="printImageMaxWidth"
         />
       </div>
       <div class="[ Print__details ][ flow ]">
@@ -23,11 +24,11 @@
 
 <script>
 import MainContent from '@/components/layout/MainContent.vue'
-import BaseImage from '~/components/ui/BaseImage.vue'
+import CloudinaryImage from '~/components/blocks/CloudinaryImage.vue'
 export default {
   components: {
     MainContent,
-    BaseImage,
+    CloudinaryImage,
   },
   async asyncData({ $content, params }) {
     const print = await $content('prints', params.slug).fetch()
@@ -36,6 +37,20 @@ export default {
   computed: {
     printClass() {
       return 'Print--' + this.print.main_image.orientation.trim().toLowerCase()
+    },
+    printImageMaxWidth() {
+      let printImageMaxWidth = null
+      switch (this.print.main_image.orientation) {
+        case 'portrait':
+          printImageMaxWidth = 520
+          break
+        case 'landscape':
+          printImageMaxWidth = 810
+          break
+        default:
+          printImageMaxWidth = 500
+      }
+      return printImageMaxWidth
     },
   },
 }
@@ -102,6 +117,15 @@ export default {
     .Print__details {
       align-self: end;
     }
+  }
+  @include media-query('widescreen') {
+    grid-template-columns: minmax(10px, 1fr) minmax(10px, 5fr) minmax(10px, 5fr);
+    grid-template-areas:
+      '. details image'
+      '. . description';
+    // .Print__details {
+    //   align-self: start;
+    // }
   }
 }
 .Print--landscape {

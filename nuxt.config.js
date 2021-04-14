@@ -21,7 +21,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    // { src: '~/plugins/axe.js', mode: 'client' }
+    { src: '~/plugins/axe.js', mode: 'client' },
     '~/plugins/feather-icons.js',
   ],
 

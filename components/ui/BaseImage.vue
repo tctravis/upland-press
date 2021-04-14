@@ -1,10 +1,5 @@
 <template>
-  <img
-    :src="cloudinaryBaseUrl + src"
-    :alt="alt"
-    :width="width"
-    :height="height"
-  />
+  <img :src="src" :alt="alt" :srcSet="srcSet" :width="width" :height="height" />
 </template>
 
 <script>
@@ -15,9 +10,14 @@ export default {
       required: true,
       default: '',
     },
+    srcSet: {
+      type: String,
+      required: false,
+      default: null,
+    },
     alt: {
       type: String,
-      required: true,
+      required: false,
       default: '',
     },
     width: {
@@ -29,15 +29,6 @@ export default {
       type: Number,
       required: false,
       default: null,
-    },
-  },
-  computed: {
-    cloudinaryBaseUrl() {
-      return (
-        'https://res.cloudinary.com/' +
-        process.env.cloudinaryName +
-        '/image/upload/'
-      )
     },
   },
 }
