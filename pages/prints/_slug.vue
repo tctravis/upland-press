@@ -7,7 +7,7 @@
           :src="print.main_image.image"
           :alt="print.main_image.alt_text"
           :src-set-widths="[400, 800]"
-          src-set-sizes="70vw, (min-width: 48em) 33vw, (min-width:62em) 20vw"
+          src-set-sizes="(min-width:62em) 20vw, (min-width: 48em) 33vw, 70vw"
         />
       </div>
       <div class="[ Print__details ][ flow ]">

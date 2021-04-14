@@ -6,7 +6,7 @@
           :src="imgSrc"
           :alt="imgAlt"
           :src-set-widths="[400, 800]"
-          src-set-sizes="70vw, (min-width: 48em) 33vw, (min-width:62em) 20vw"
+          src-set-sizes="(min-width:62em) 20vw, (min-width: 48em) 33vw, 70vw"
         />
       </NuxtLink>
     </div>
