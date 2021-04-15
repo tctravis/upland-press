@@ -6,8 +6,8 @@
           v-if="print.main_image"
           :src="print.main_image.image"
           :alt="print.main_image.alt_text"
-          :src-set-widths="[400, 800]"
-          src-set-sizes="(min-width:62em) 20vw, (min-width: 48em) 33vw, 70vw"
+          :src-set-widths="printImageSrcSets"
+          :src-set-sizes="printImageSizes"
         />
       </div>
       <div class="[ Print__details ][ flow ]">
@@ -39,19 +39,33 @@ export default {
     printClass() {
       return 'Print--' + this.print.main_image.orientation.trim().toLowerCase()
     },
-    printImageMaxWidth() {
-      let printImageMaxWidth = null
+    printImageSizes() {
+      let printImageSizes = null
       switch (this.print.main_image.orientation) {
-        case 'portrait':
-          printImageMaxWidth = 520
+        case 'Portrait':
+          printImageSizes = '70vw'
           break
-        case 'landscape':
-          printImageMaxWidth = 810
+        case 'Landscape':
+          printImageSizes = '90vw'
           break
         default:
-          printImageMaxWidth = 500
+          printImageSizes = '(min-width:62em) 50vw, 70vw'
       }
-      return printImageMaxWidth
+      return printImageSizes
+    },
+    printImageSrcSets() {
+      let printImageSrcSets = null
+      switch (this.print.main_image.orientation) {
+        case 'Portrait':
+          printImageSrcSets = [300, 500, 1000]
+          break
+        case 'Landscape':
+          printImageSrcSets = [400, 820, 1640]
+          break
+        default:
+          printImageSrcSets = [300, 500, 1000]
+      }
+      return printImageSrcSets
     },
   },
 }
