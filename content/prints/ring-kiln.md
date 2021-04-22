@@ -1,7 +1,7 @@
 ---
 main_image:
   orientation: " Portrait"
-  image: "/v1619103041/upland-press/Ring_kiln_mmcidl.jpg"
+  image: "/v1619104678/upland-press/Ring_kiln_Version_2_dfyzbc.jpg"
   alt_text: Nunc blandit, neque nec rhoncus interdum, quam dolor varius urna, in consectetur
     erat sem pulvinar dolor
 title: Ring Kiln
