@@ -3,7 +3,7 @@ title: Last cut of the summer
 description: Last cut of the summer
 price: "70"
 main_image:
-  image: "/v1616612424/upland-press/last-cut-of-the-summer_erotrj.jpg"
+  image: "/v1619103043/upland-press/Last_cut_of_the_summer_w8hqhe.jpg"
   alt_text: Last cut of the summer
   orientation: " Portrait"
 edition: ''
