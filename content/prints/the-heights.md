@@ -3,7 +3,7 @@ title: The Heights
 description: Limited edition linocut print
 price: "£80"
 main_image:
-  image: "/v1619103041/upland-press/The_Heights_ongva6.jpg"
+  image: "/v1619105013/upland-press/The_Heights_-_detail_txj3bj.jpg"
   alt_text: The Heights
   orientation: " Portrait"
 edition: Limited edition of 30
