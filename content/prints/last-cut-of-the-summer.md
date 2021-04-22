@@ -5,7 +5,7 @@ price: "70"
 main_image:
   image: "/v1619103502/upland-press/Last_cut_of_the_summer_1_o2pglf.jpg"
   alt_text: Last cut of the summer
-  orientation: " Portrait"
+  orientation: Standard
 edition: ''
 size: ''
 
