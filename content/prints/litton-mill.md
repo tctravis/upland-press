@@ -1,6 +1,6 @@
 ---
 main_image:
-  orientation: " Portrait"
+  orientation: Standard
   image: "/v1619102411/upland-press/Litton_Mill_v1is8c.jpg"
   alt_text: Linocut print of Litton Mill, taken outside among grass and stones.
 title: Litton Mill
