@@ -1,7 +1,7 @@
 ---
 main_image:
   orientation: Standard
-  image: "/v1619104389/upland-press/Litton_Mill_-_detail_bfovua.jpg"
+  image: "/v1619102411/upland-press/Litton_Mill_v1is8c.jpg"
   alt_text: Linocut print of Litton Mill, taken outside among grass and stones.
 title: Litton Mill
 description: Morbi eu convallis mauris. Nunc varius in elit vitae fringilla
