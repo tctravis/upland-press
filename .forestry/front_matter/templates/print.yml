@@ -68,7 +68,6 @@ fields:
     label: orientation
   label: main image
 pages:
-- content/prints/cherryburn-chicken.md
 - content/prints/coppice.md
 - content/prints/free-burn.md
 - content/prints/gurnal-dubs.md
