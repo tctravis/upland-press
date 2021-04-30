@@ -52,6 +52,10 @@ fields:
       required: false
     label: alt text
   label: main image
+- name: print_images
+  type: image_gallery
+  config: {}
+  label: print images
 pages:
 - content/prints/cherryburn-chicken.md
 - content/prints/coppice.md
