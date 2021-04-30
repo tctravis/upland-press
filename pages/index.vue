@@ -1,35 +1,32 @@
 <template>
   <MainContent>
-    <PageTitle>Elbow</PageTitle>
-    <nuxt-content :document="page" />
-    <div class="[ flow ]">
-      <h2>Base Button</h2>
-      <BaseButton>Button</BaseButton>
-      <h2>Layouts</h2>
-      <nuxt-link to="/layouts/masonry">Masonry</nuxt-link>
-      <h2>Card</h2>
-      <Grid data-min="15rem">
-        <Card />
-        <Card />
-        <Card />
-      </Grid>
+    <div class="[ Home__image ][ gap-bottom-500 ]">
+      <CloudinaryImage
+        v-if="page.main_image"
+        :src="page.main_image.image"
+        :alt="page.main_image.alt_text"
+        :src-set-widths="imageSrcSets"
+        :src-set-sizes="imageSizes"
+      />
+    </div>
+    <div class="[ Home__title ]">
+      <PageTitle>Linocut prints of the northern uplands</PageTitle>
+    </div>
+    <div class="[ Home__text ]">
+      <nuxt-content :document="page" />
     </div>
   </MainContent>
 </template>
 
 <script>
 import MainContent from '@/components/layout/MainContent.vue'
-import Card from '@/components/blocks/Card.vue'
-import Grid from '~/components/compositions/Grid.vue'
 import PageTitle from '~/components/blocks/PageTitle.vue'
-import BaseButton from '~/components/ui/BaseButton.vue'
+import CloudinaryImage from '~/components/blocks/CloudinaryImage.vue'
 export default {
   components: {
     MainContent,
-    Grid,
     PageTitle,
-    BaseButton,
-    Card,
+    CloudinaryImage,
   },
   async asyncData({ $content, params }) {
     const page = await $content('home').fetch()
@@ -46,6 +43,14 @@ export default {
         },
       ],
     }
+  },
+  computed: {
+    imageSrcSets() {
+      return [300, 500, 1000]
+    },
+    imageSizes() {
+      return '(min-width:62em) 50vw, 70vw'
+    },
   },
 }
 </script>

@@ -1,32 +1,19 @@
 <template>
   <nav class="[ Nav ][ cluster ]">
     <div>
-      <NuxtLinkOrAnchorLink class="[ Nav__link ]" to="/prints"
-        >Prints</NuxtLinkOrAnchorLink
-      >
-      <NuxtLinkOrAnchorLink class="[ Nav__link ]" to="/pages/about"
-        >About</NuxtLinkOrAnchorLink
-      >
+      <NavLink class="[ Nav__link ]" link="/prints">Prints</NavLink>
+      <NavLink class="[ Nav__link ]" link="/pages/about">About</NavLink>
     </div>
   </nav>
 </template>
 
 <script>
-import NuxtLinkOrAnchorLink from '@/components/ui/NuxtLinkOrAnchorLink.vue'
+import NavLink from '@/components/ui/NavLink.vue'
 export default {
   components: {
-    NuxtLinkOrAnchorLink,
+    NavLink,
   },
 }
 </script>
 
-<style lang="scss" scoped>
-.Nav__link {
-  text-transform: lowercase;
-  text-decoration-line: none;
-  @include apply-utility('weight', 'bold');
-  &:hover {
-    text-decoration: underline;
-  }
-}
-</style>
+<style lang="scss" scoped></style>

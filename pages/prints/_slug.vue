@@ -11,7 +11,7 @@
         />
       </div>
       <div class="[ Print__details ][ flow ]">
-        <h1 class="[ text-500 ]">{{ print.title }}</h1>
+        <h1 class="[ font-header text-500 md:text-600 ]">{{ print.title }}</h1>
         <p v-show="print.price">£{{ print.price }}</p>
         <p v-show="print.edition">{{ print.edition }}</p>
         <p v-show="print.size">{{ print.size }}</p>
@@ -37,7 +37,11 @@ export default {
   },
   computed: {
     printClass() {
-      return 'Print--' + this.print.main_image.orientation.trim().toLowerCase()
+      return (
+        '[ Print--' +
+        this.print.main_image.orientation.trim().toLowerCase() +
+        ' ]'
+      )
     },
     printImageSizes() {
       let printImageSizes = null
@@ -98,10 +102,10 @@ export default {
       '. . description';
   }
   @include media-query('md') {
-    grid-template-columns: minmax(10px, 1fr) minmax(10px, 3fr) minmax(10px, 7fr);
+    grid-template-columns: minmax(10px, 4fr) minmax(10px, 8fr);
     grid-template-areas:
-      '. details image'
-      '. . description';
+      'details image'
+      '. description';
     > * {
       grid-column: auto;
     }
@@ -109,9 +113,9 @@ export default {
       align-self: end;
     }
   }
-  @include media-query('lg') {
-    grid-template-columns: minmax(10px, 1fr) minmax(10px, 4fr) minmax(10px, 7fr);
-  }
+  // @include media-query('lg') {
+  //   grid-template-columns: minmax(10px, 3fr) minmax(10px, 9fr);
+  // }
 }
 .Print--portrait {
   @include media-query('sm') {
@@ -125,10 +129,10 @@ export default {
     }
   }
   @include media-query('md') {
-    grid-template-columns: minmax(10px, 1fr) minmax(10px, 3fr) minmax(10px, 7fr);
+    grid-template-columns: minmax(10px, 4fr) minmax(10px, 7fr);
     grid-template-areas:
-      '. details image'
-      '. . description';
+      'details image'
+      '. description';
     .Print__details {
       align-self: end;
     }
@@ -138,9 +142,6 @@ export default {
     grid-template-areas:
       '. details image'
       '. . description';
-    // .Print__details {
-    //   align-self: start;
-    // }
   }
 }
 .Print--landscape {

@@ -15,8 +15,8 @@
       <Card
         v-for="print of prints"
         :key="print.slug"
-        :img-src="print.main_image.image"
-        :img-alt="print.main_image.alt_text"
+        :img-src="print.gallery_image.image"
+        :img-alt="print.gallery_image.alt_text"
         :title="print.title"
         :link="print.path"
       />
@@ -26,17 +26,17 @@
 
 <script>
 import MainContent from '@/components/layout/MainContent.vue'
-import Card from '@/components/blocks/Card.vue'
 import PageTitle from '~/components/blocks/PageTitle.vue'
+import Card from '~/components/blocks/Card.vue'
 export default {
   components: {
-    Card,
     MainContent,
     PageTitle,
+    Card,
   },
   async asyncData({ $content, params }) {
     const prints = await $content('prints')
-      .only(['title', 'description', 'path', 'main_image'])
+      .only(['title', 'description', 'path', 'main_image', 'gallery_image'])
       .sortBy('createdAt', 'asc')
       .fetch()
     return {

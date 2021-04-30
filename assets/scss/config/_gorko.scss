@@ -12,6 +12,7 @@ $gorko-base-size: 1rem;
 /// your whole project.
 ///
 $gorko-size-scale: (
+  '200': $gorko-base-size * 0.64,
   '300': $gorko-base-size * 0.8,
   '400': $gorko-base-size,
   '500': $gorko-base-size * 1.25,
@@ -59,7 +60,8 @@ $gorko-config: (
   ),
   'font': (
     'items': (
-      'base': 'Arvo, Helvetica, Arial, sans-serif'
+      'header': 'Arvo, Helvetica, Arial, sans-serif',
+      'base': 'Montserrat, Helvetica, Arial, sans-serif'
     ),
     'output': 'standard',
     'property': 'font-family'
@@ -103,6 +105,16 @@ $gorko-config: (
     'items': $gorko-size-scale,
     'output': 'standard',
     'property': 'padding-left'
+  ),
+  'pad-x': (
+    'items': $gorko-size-scale,
+    'output': 'responsive',
+    'property': 'padding-x'
+  ),
+  'pad-y': (
+    'items': $gorko-size-scale,
+    'output': 'responsive',
+    'property': 'padding-y'
   ),
   'stack': (
     'items': (

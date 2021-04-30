@@ -15,14 +15,14 @@
         <div class="[ Header__social ][ gap-left-400 flex-row ]">
           <NuxtLinkOrAnchorLink
             :to="instagramUser"
-            link-class="[ with-icon with-icon--text-hidden pad-300 ]"
+            link-class="[ with-icon with-icon--text-hidden pad-200 ]"
             ><InstagramIcon /><span class="visually-hidden"
               >Instagram</span
             ></NuxtLinkOrAnchorLink
           >
           <NuxtLinkOrAnchorLink
             :to="'mailto:'"
-            link-class="[ with-icon with-icon--text-hidden pad-300 ]"
+            link-class="[ with-icon with-icon--text-hidden pad-200 ]"
             ><MailIcon /><span class="visually-hidden"
               >Email</span
             ></NuxtLinkOrAnchorLink

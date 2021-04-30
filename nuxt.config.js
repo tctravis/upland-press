@@ -48,7 +48,7 @@ export default {
 
   webfontloader: {
     google: {
-      families: ['Arvo:400,700'], // Loads Lato font with weights 400 and 700
+      families: ['Arvo:400,700', 'Lato:400, 700'], // Loads Lato font with weights 400 and 700
     },
   },
 
