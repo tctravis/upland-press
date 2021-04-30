@@ -8,6 +8,9 @@ description: Nam sed pellentesque dolor. Fusce sit amet ante nulla
 price: '25.00'
 edition: Limited edition of 30
 size: A4
+gallery_image:
+  image: "/v1619784904/upland-press/Coppice_kpqcn8.png"
+  alt_text: Coppice
 
 ---
 Pellentesque at arcu sem. Maecenas nec justo nec diam egestas feugiat. Sed eget lectus lacus. Mauris mollis sollicitudin dolor a venenatis. Cras vel tellus tortor. Vivamus placerat convallis nunc. Nullam auctor ornare purus ut laoreet. Nam sed pellentesque dolor. Fusce sit amet ante nulla.
