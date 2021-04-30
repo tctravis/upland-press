@@ -8,6 +8,9 @@ main_image:
   orientation: Landscape
 edition: Limited edition of 30
 size: Long thin print
+gallery_image:
+  image: "/v1619784668/upland-press/DSC_0070_u7pdl5.png"
+  alt_text: Detail of Gurnal Dubs limited edition linocut print
 
 ---
 **Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et leo quis sem volutpat euismod a vitae erat. Aenean nibh mauris, malesuada nec nisl eu, posuere mollis turpis.**
