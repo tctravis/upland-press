@@ -8,6 +8,9 @@ description: Sed tristique vestibulum lacus sit amet aliquam
 price: '50.00'
 edition: Limited edition of 50
 size: A4
+gallery_image:
+  image: "/v1619105156/upland-press/The_Woodsman_Version_2_rjwjlu.jpg"
+  alt_text: Detail of The Woodsman limited edition linocut print
 
 ---
 Aliquam erat volutpat. Maecenas fermentum vestibulum nibh, eget finibus est dapibus vitae. In condimentum aliquet aliquet. Sed tristique vestibulum lacus sit amet aliquam. 
