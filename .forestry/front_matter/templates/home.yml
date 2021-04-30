@@ -22,3 +22,5 @@ fields:
       required: false
     label: alt text
   label: main image
+pages:
+- content/home.md

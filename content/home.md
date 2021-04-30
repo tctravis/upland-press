@@ -1,10 +1,11 @@
 ---
-title: Elbow
-description: 'A starter theme using nuxt, nuxt content module and forestry.io'
+title: Linocut prints of the northern uplands
+description: A starter theme using nuxt, nuxt content module and forestry.io
+main_image:
+  image: "/v1619104303/upland-press/Last_cut_of_the_summer_-_detail_zet9bh.jpg"
+  alt_text: ''
+
 ---
+**Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan dui ac turpis dapibus venenatis. Donec sit amet turpis neque. Nam fringilla enim et lacus porttitor egestas. Nulla facilisi. Vivamus tincidunt vestibulum mi, et iaculis dolor iaculis ac.** 
 
-Starter theme using Nuxt, Nuxt Content, Forestry
-
-Loosely based on content intended for a printmaker's website.
-
-A place to build, test and store components for re-use on a variety of Vue/Nuxt-based sites.
+Quisque tristique, enim id molestie pellentesque, mauris risus consequat ante, ac tincidunt nisi quam id nulla. Duis porta vestibulum ex, quis malesuada dolor commodo vitae. Nullam et lacus elit. Donec facilisis sed orci at porttitor. Integer id efficitur velit. Nulla non sapien ultrices, molestie odio sed, bibendum orci.
