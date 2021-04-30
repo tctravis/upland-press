@@ -8,6 +8,9 @@ main_image:
   orientation: " Portrait"
 edition: Limited edition of 30
 size: A3
+gallery_image:
+  image: "/v1619105013/upland-press/The_Heights_-_detail_txj3bj.jpg"
+  alt_text: The Heights - limited edition linocut print
 
 ---
 Gurnal Dubs is a small tarn nestled among heather-clad fells not far from Kendal. Off the tourist trail, it is a popular destination for open-water swimming enthusiasts and families on Sunday rambles. 
