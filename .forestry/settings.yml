@@ -7,6 +7,9 @@ sections:
 - type: document
   path: static/data/site-settings.json
   label: Site settings
+- type: document
+  path: content/home.md
+  label: Home
 - type: directory
   path: content/pages
   label: Pages
