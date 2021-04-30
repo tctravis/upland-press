@@ -5,12 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: static/data/site-settings.json
+  label: Site settings
+- type: document
   path: ''
   label: Home
   match: "**/*"
-- type: document
-  path: static/data/site-settings.json
-  label: Site settings
 - type: directory
   path: content/pages
   label: Pages
