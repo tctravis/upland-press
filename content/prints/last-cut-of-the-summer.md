@@ -1,9 +1,9 @@
 ---
-title: Last cut of the summer
+title: Last Cut of the Summer
 description: Last cut of the summer
 price: "70"
 main_image:
-  image: "/v1619104303/upland-press/Last_cut_of_the_summer_-_detail_zet9bh.jpg"
+  image: "/v1619103502/upland-press/Last_cut_of_the_summer_1_o2pglf.jpg"
   alt_text: Last cut of the summer
   orientation: Standard
 edition: ''
