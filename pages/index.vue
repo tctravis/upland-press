@@ -1,7 +1,7 @@
 <template>
   <MainContent>
     <div class="[ Home ]">
-      <div class="[ Home__image ][ gap-bottom-500 ]">
+      <div class="[ Home__image ]">
         <CloudinaryImage
           v-if="page.main_image"
           :src="page.main_image.image"
@@ -79,12 +79,12 @@ export default {
   // grid-template-columns: minmax(10px, 4fr) minmax(10px, 6fr);
   // }
   @include media-query('md') {
-    grid-template-columns: minmax(10px, 5fr) minmax(10px, 6fr);
+    grid-template-columns: minmax(10px, 4fr) minmax(10px, 7fr);
     grid-template-areas:
       'title image'
       '. text';
   }
-  @include media-query('widescreen') {
+  @include media-query('xl') {
     grid-template-columns: minmax(10px, 5fr) minmax(10px, 6fr);
     grid-template-areas:
       'title image'

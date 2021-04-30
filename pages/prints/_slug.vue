@@ -10,11 +10,13 @@
           :src-set-sizes="printImageSizes"
         />
       </div>
-      <div class="[ Print__details ][ flow ]">
+      <div class="[ Print__details ][ flow ]" style="--flow-space: 0.5em">
         <h1 class="[ font-header text-500 md:text-600 ]">{{ print.title }}</h1>
-        <p v-show="print.price">£{{ print.price }}</p>
-        <p v-show="print.edition">{{ print.edition }}</p>
-        <p v-show="print.size">{{ print.size }}</p>
+        <div class="[ Print__meta ]">
+          <p v-show="print.price">£{{ print.price }}</p>
+          <p v-show="print.edition">{{ print.edition }}</p>
+          <p v-show="print.size">{{ print.size }}</p>
+        </div>
       </div>
       <div class="[ Print__description ]">
         <nuxt-content :document="print" />

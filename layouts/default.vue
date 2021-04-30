@@ -1,5 +1,5 @@
 <template>
-  <div class="[ vh-full font-base relative ]">
+  <div class="[ vh-full relative ]">
     <Header />
     <main>
       <div class="[ wrapper relative gap-top-900 ]">
@@ -25,7 +25,7 @@ export default {
   head() {
     return {
       bodyAttrs: {
-        class: 'font-base',
+        class: 'up-bg font-base',
       },
     }
   },
@@ -44,7 +44,7 @@ export default {
   },
 }
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
 .upland-press {
   position: absolute;
   transform: rotate(270deg) translate(-180px, 0);
@@ -54,6 +54,17 @@ export default {
   line-height: 1.8;
   @include media-query('sm') {
     transform: rotate(270deg) translate(-226px, 0);
+  }
+}
+.up-bg {
+  $bg-width: 270px;
+  $bg-height: 527px;
+  background-image: url('~assets/images/up.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: ($bg-width/9 * 7) ($bg-height/9 * 7);
+  @include media-query('md') {
+    background-size: $bg-width $bg-height;
   }
 }
 </style>

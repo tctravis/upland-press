@@ -157,8 +157,9 @@ $gorko-config: (
     'sm': '(min-width: 36em)',
     'md': '(min-width: 48em)',
     'lg': '(min-width: 62em)',
+    'xl': '(min-width: 74em)',
     'max-sm': '(max-width: 36em)',
-    'widescreen':'(min-width: 56em) and (max-height: 800px)',
+    'widescreen':'(min-width: 56em) and (max-height: 768px)',
   ),
   // custom
   'pad': (
