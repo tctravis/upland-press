@@ -1,5 +1,5 @@
 <template>
-  <div class="[ gap-bottom-700 ]">
+  <div class="[ gap-bottom-500 ]">
     <h1><slot></slot></h1>
   </div>
 </template>

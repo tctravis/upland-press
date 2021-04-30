@@ -1,8 +1,8 @@
 <template>
   <MainContent>
-    <PageTitle>Prints</PageTitle>
-    <div class="[ MasonryGallery ][ ml-auto ]">
-      <div class="[ MasonryGallery__summary ][ flow gap-bottom-500 ]">
+    <div class="[ PageHeader md:width-three-quarters lg:width-two-thirds ]">
+      <PageTitle>Prints</PageTitle>
+      <div class="[ flow gap-bottom-700 ]">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
           optio ipsam debitis iusto maxime nam fuga sunt saepe, vitae
@@ -10,6 +10,8 @@
           facilis aperiam.
         </p>
       </div>
+    </div>
+    <div class="[ MasonryGallery ][ ml-auto ]">
       <Card
         v-for="print of prints"
         :key="print.slug"
@@ -45,6 +47,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.PageHeader {
+}
 .MasonryGallery__wrapper {
   @include media-query('sm') {
     width: percentage(6/7);
