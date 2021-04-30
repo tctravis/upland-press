@@ -8,7 +8,7 @@ sections:
   path: static/data/site-settings.json
   label: Site settings
 - type: document
-  path: ''
+  path: content
   label: Home
   match: "**/*"
 - type: directory
