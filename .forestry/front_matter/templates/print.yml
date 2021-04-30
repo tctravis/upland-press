@@ -22,10 +22,35 @@ fields:
   config:
     required: false
   label: size
+- name: gallery_image
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: image
+  - name: alt_text
+    type: text
+    config:
+      required: false
+    label: alt text
+  label: gallery image
 - name: main_image
   type: field_group
   config: {}
   fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: image
+  - name: alt_text
+    type: text
+    config:
+      required: false
+    label: alt text
   - name: orientation
     type: select
     default: []
@@ -41,19 +66,8 @@ fields:
         file: 
         path: 
     label: orientation
-  - name: image
-    type: file
-    config:
-      maxSize: 64
-    label: image
-  - name: alt_text
-    type: text
-    config:
-      required: false
-    label: alt text
   label: main image
 pages:
-- content/prints/cherryburn-chicken.md
 - content/prints/coppice.md
 - content/prints/free-burn.md
 - content/prints/gurnal-dubs.md

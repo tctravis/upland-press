@@ -8,6 +8,9 @@ description: Vestibulum eu sagittis eros, ut bibendum lacus. Aliquam erat volutp
 price: '30.00'
 edition: Limited edition of 50
 size: A5
+gallery_image:
+  image: "/v1619784860/upland-press/Free-burn_wcdftq.png"
+  alt_text: Detail of Freeburn - limited edition linocut print by Toby Travis
 
 ---
 Sed ut ornare nunc, sed rutrum diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas non rhoncus eros, at pretium orci. Vestibulum eu sagittis eros, ut bibendum lacus. Aliquam erat volutpat. 
