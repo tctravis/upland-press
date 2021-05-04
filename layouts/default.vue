@@ -1,5 +1,5 @@
 <template>
-  <div class="[ vh-full relative ]">
+  <div class="[ page ][ relative ]">
     <Header />
     <main>
       <div class="[ wrapper relative gap-top-900 ]">
@@ -45,6 +45,14 @@ export default {
 }
 </script>
 <style lang="scss">
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.page > main {
+  flex: 1 0 auto;
+}
 .upland-press {
   position: absolute;
   transform: rotate(270deg) translate(-180px, 0);

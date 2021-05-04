@@ -49,10 +49,10 @@ export default {
   },
   computed: {
     imageSrcSets() {
-      return [400, 500, 1000]
+      return [300, 500, 1000]
     },
     imageSizes() {
-      return '(min-width:62em) 50vw, 70vw'
+      return '(max-width:36em) 80vw, (min-width:62em) 50vw, 70vw'
     },
   },
 }
@@ -75,20 +75,30 @@ export default {
     grid-row: auto;
     text-align: right;
   }
-  // @include media-query('sm') {
-  // grid-template-columns: minmax(10px, 4fr) minmax(10px, 6fr);
-  // }
-  @include media-query('md') {
-    grid-template-columns: minmax(10px, 4fr) minmax(10px, 7fr);
+  @include media-query('sm') {
+    grid-template-columns: minmax(10px, 1fr) minmax(10px, 1fr) minmax(10px, 4fr);
     grid-template-areas:
-      'title image'
-      '. text';
+      '. image image'
+      '. title title'
+      '. . text';
   }
-  @include media-query('xl') {
-    grid-template-columns: minmax(10px, 5fr) minmax(10px, 6fr);
+  @include media-query('md') {
+    grid-template-columns: minmax(10px, 4fr) minmax(10px, 1fr) minmax(10px, 6fr);
     grid-template-areas:
-      'title image'
-      'text image';
+      'title image image'
+      '. . text';
+  }
+  @include media-query('lg') {
+    grid-template-columns: minmax(10px, 5fr) minmax(10px, 1fr) minmax(10px, 5fr);
+    grid-template-areas:
+      'title image image'
+      '. . text';
+  }
+  @include media-query('widescreen') {
+    grid-template-columns: minmax(10px, 1fr) minmax(10px, 4fr) minmax(10px, 6fr);
+    grid-template-areas:
+      'title title image'
+      '. text image';
     .Home__image {
       margin-bottom: 0;
     }
