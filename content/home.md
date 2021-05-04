@@ -2,7 +2,7 @@
 title: Linocut prints of the northern uplands
 description: A starter theme using nuxt, nuxt content module and forestry.io
 main_image:
-  image: "/v1619104303/upland-press/Last_cut_of_the_summer_-_detail_zet9bh.jpg"
+  image: "/v1619105013/upland-press/The_Heights_-_detail_txj3bj.jpg"
   alt_text: Detail from linocut print 'Last cut of the summer'
 
 ---
