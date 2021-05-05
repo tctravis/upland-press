@@ -2,6 +2,9 @@
 label: Print
 hide_body: false
 fields:
+- name: draft
+  type: boolean
+  label: draft
 - type: text
   name: title
   label: title
