@@ -9,7 +9,7 @@ main_image:
 edition: Limited edition of 30
 size: Long thin print
 gallery_image:
-  image: "/v1616444086/upland-press/gurnal_dubs.jpg"
+  image: "/v1620242937/upland-press/IMG_2960_w6suhz.png"
   alt_text: Detail of Gurnal Dubs limited edition linocut print
 publish: true
 
