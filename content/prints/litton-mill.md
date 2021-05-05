@@ -11,6 +11,7 @@ size: A4
 gallery_image:
   image: "/v1619104389/upland-press/Litton_Mill_-_detail_bfovua.jpg"
   alt_text: Detail of Litton Mill linocut by Toby Travis
+publish: true
 
 ---
 Quisque placerat cursus nisi eget congue. Vivamus venenatis commodo tempus. Ut et lorem finibus leo pharetra vulputate. Praesent consectetur ultricies accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
