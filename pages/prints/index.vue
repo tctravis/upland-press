@@ -37,6 +37,7 @@ export default {
   async asyncData({ $content, params }) {
     const prints = await $content('prints')
       .only(['title', 'description', 'path', 'main_image', 'gallery_image'])
+      .where({ publish: true })
       .sortBy('createdAt', 'asc')
       .fetch()
     return {
@@ -69,7 +70,7 @@ export default {
     width: percentage(6/7);
   }
   @include media-query('lg') {
-    columns: 3;
+    // columns: 3;
     width: percentage(9/11);
   }
 }
