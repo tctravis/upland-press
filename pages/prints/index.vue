@@ -91,10 +91,10 @@ export default {
   grid-template-areas:
     'summary'
     'last-cut-of-the-summer'
+    'gurnal-dubs'
     'litton-mill'
-    'the-heights'
     'the-woodsman'
-    'gurnal-dubs';
+    'the-heights';
   > * {
     grid-column: 1 / -1;
     grid-row: auto;
