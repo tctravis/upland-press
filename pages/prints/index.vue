@@ -115,26 +115,22 @@ export default {
       minmax(10px, 1fr);
     grid-template-areas:
       'summary summary summary summary .'
-      'gurnal-dubs gurnal-dubs gurnal-dubs gurnal-dubs gurnal-dubs'
-      'the-woodsman the-woodsman the-woodsman last-cut-of-the-summer last-cut-of-the-summer'
-      'the-heights the-heights litton-mill litton-mill litton-mill';
+      '. the-heights the-heights litton-mill litton-mill'
+      '. gurnal-dubs gurnal-dubs gurnal-dubs gurnal-dubs'
+      '. the-woodsman the-woodsman last-cut-of-the-summer last-cut-of-the-summer';
     .the-woodsman {
       // align-self: end;
     }
   }
   @include media-query('lg') {
     grid-template-columns:
-      minmax(10px, 2fr) minmax(10px, 1fr) minmax(10px, 3fr) minmax(10px, 1fr) minmax(
-        10px,
-        3fr
-      )
-      minmax(10px, 1fr);
+      minmax(10px, 1fr) minmax(10px, 1fr) minmax(10px, 4fr) minmax(10px, 1fr)
+      minmax(10px, 4fr);
     grid-template-areas:
-      'summary summary summary summary . .'
-      '. gurnal-dubs gurnal-dubs gurnal-dubs gurnal-dubs gurnal-dubs'
-      '. the-woodsman the-woodsman the-woodsman last-cut-of-the-summer last-cut-of-the-summer'
-      '. the-heights the-heights . last-cut-of-the-summer last-cut-of-the-summer'
-      '. the-heights the-heights litton-mill litton-mill litton-mill';
+      'summary summary summary summary .'
+      '. the-heights the-heights litton-mill litton-mill'
+      '. gurnal-dubs gurnal-dubs gurnal-dubs gurnal-dubs'
+      '. the-woodsman the-woodsman last-cut-of-the-summer last-cut-of-the-summer';
     .the-woodsman {
       // align-self: start;
     }

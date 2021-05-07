@@ -2,7 +2,7 @@
   <div class="[ page ][ relative ]">
     <Header />
     <main>
-      <div class="[ wrapper relative gap-top-900 ]">
+      <div class="[ wrapper relative gap-top-700 md:gap-top-900 ]">
         <p
           class="[ upland-press ][ font-header text-600 sm:text-700 weight-bold color-mid-grey ]"
         >

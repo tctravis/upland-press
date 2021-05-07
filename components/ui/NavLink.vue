@@ -23,8 +23,9 @@ export default {
 <style lang="scss">
 .Nav__link {
   a {
-    text-transform: uppercase;
+    text-transform: lowercase;
     text-decoration: none;
+    @include apply-utility('font', 'header');
     @include apply-utility('weight', 'bold');
     &:hover {
       text-decoration: underline;

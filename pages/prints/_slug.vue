@@ -11,7 +11,9 @@
         />
       </div>
       <div class="[ Print__details ][ flow ]" style="--flow-space: 0.5em">
-        <h1 class="[ font-header text-500 md:text-600 ]">{{ print.title }}</h1>
+        <h1 class="[ font-header text-500 md:text-600 lg:text-700 ]">
+          {{ print.title }}
+        </h1>
         <div class="[ Print__meta ]">
           <p v-show="print.price">£{{ print.price }}</p>
           <p v-show="print.edition">{{ print.edition }}</p>
@@ -55,7 +57,7 @@ export default {
           printImageSizes = '90vw'
           break
         default:
-          printImageSizes = '(min-width:62em) 50vw, 70vw'
+          printImageSizes = '(min-width:62em) 55vw, 70vw'
       }
       return printImageSizes
     },
@@ -112,7 +114,7 @@ export default {
       grid-column: auto;
     }
     .Print__details {
-      align-self: end;
+      // align-self: end;
     }
   }
   // @include media-query('lg') {
@@ -136,7 +138,7 @@ export default {
       'details image'
       '. description';
     .Print__details {
-      align-self: end;
+      // align-self: end;
     }
   }
   @include media-query('widescreen') {
