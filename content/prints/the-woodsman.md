@@ -1,7 +1,7 @@
 ---
 main_image:
   orientation: Standard
-  image: "/v1611949894/upland-press/6771F101-DF5A-43EC-A622-5C629C0FFC42_ipt3um.jpg"
+  image: "/v1619105156/upland-press/The_Woodsman_Version_2_rjwjlu.jpg"
   alt_text: Donec fringilla, risus a ullamcorper interdum
 title: The Woodsman
 description: Sed tristique vestibulum lacus sit amet aliquam
