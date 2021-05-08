@@ -3,8 +3,8 @@ main_image:
   orientation: Standard
   image: "/v1619105156/upland-press/The_Woodsman_Version_2_rjwjlu.jpg"
   alt_text: Donec fringilla, risus a ullamcorper interdum
-  width: 
-  height: 
+  width: 1029
+  height: 1029
 title: The Woodsman
 description: Sed tristique vestibulum lacus sit amet aliquam
 price: '50.00'
