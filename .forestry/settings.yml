@@ -7,6 +7,13 @@ sections:
 - type: document
   path: static/data/site-settings.json
   label: Site settings
+- type: directory
+  path: ''
+  label: Images
+  create: none
+  match: "**/*"
+  templates:
+  - image
 - type: document
   path: content/home.md
   label: Home
