@@ -15,5 +15,11 @@ fields:
   config:
     required: false
   label: Description
+- name: image
+  type: include
+  config: {}
+  template: image
+  label: Image
 pages:
+- content/pages/about.md
 - content/pages/about.md
