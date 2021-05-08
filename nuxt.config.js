@@ -32,6 +32,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxt/image',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -62,5 +63,13 @@ export default {
 
   env: {
     cloudinaryName: process.env.CLOUDNAME,
+  },
+  image: {
+    cloudinary: {
+      baseURL:
+        'https://res.cloudinary.com/' +
+        process.env.CLOUDNAME +
+        '/image/upload/',
+    },
   },
 }
