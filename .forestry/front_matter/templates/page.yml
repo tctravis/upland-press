@@ -20,6 +20,33 @@ fields:
   config: {}
   template: image
   label: Image
+- name: content
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
+  - name: image
+    type: include
+    config: {}
+    template: image
+    label: Image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Content
 pages:
 - content/pages/about.md
 - content/pages/about.md
