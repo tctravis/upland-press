@@ -39,6 +39,26 @@ fields:
     config:
       required: false
     label: alt text
+  - name: width
+    type: number
+    label: width
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  - name: height
+    type: number
+    label: height
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
   label: gallery image
 - name: main_image
   type: field_group
@@ -69,6 +89,26 @@ fields:
         file: 
         path: 
     label: orientation
+  - name: width
+    type: number
+    label: width
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  - name: height
+    type: number
+    label: height
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
   label: main image
 pages:
 - content/prints/coppice.md
