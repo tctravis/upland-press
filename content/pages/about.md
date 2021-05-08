@@ -2,6 +2,11 @@
 page_title: About
 title: About
 description: A Nuxt-based static site boilerplate
+publish: false
+image: "/v1620470375/upland-press/The_Woodsman_pqzok7.jpg"
+alt_text: The Woodsman
+width: 1000
+height: 1053
 
 ---
 **This is the about page**
