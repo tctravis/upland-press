@@ -6,11 +6,15 @@ main_image:
   image: "/v1619105013/upland-press/The_Heights_-_detail_txj3bj.jpg"
   alt_text: The Heights
   orientation: " Portrait"
+  width: 
+  height: 
 edition: Limited edition of 30
 size: A3
 gallery_image:
   image: "/v1619105013/upland-press/The_Heights_-_detail_txj3bj.jpg"
   alt_text: The Heights - limited edition linocut print
+  width: 1000
+  height: 1902
 publish: true
 
 ---
