@@ -4,6 +4,8 @@ main_image:
   image: "/v1619104908/upland-press/Ring_kiln_Version_2_1_jdyiz6.jpg"
   alt_text: Nunc blandit, neque nec rhoncus interdum, quam dolor varius urna, in consectetur
     erat sem pulvinar dolor
+  width: 
+  height: 
 title: Ring Kiln
 description: Nunc blandit, neque nec rhoncus interdum, quam dolor varius urna, in
   consectetur erat sem pulvinar dolor
@@ -13,6 +15,9 @@ size: A4
 gallery_image:
   image: "/v1619104908/upland-press/Ring_kiln_Version_2_1_jdyiz6.jpg"
   alt_text: Detail of Ring Kiln linocut print
+  width: 
+  height: 
+publish: true
 
 ---
 Aliquam at ligula faucibus, accumsan magna vel, ornare ex. Praesent in nisi libero. Quisque vitae bibendum lectus, quis tincidunt nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
