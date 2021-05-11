@@ -6,13 +6,17 @@ main_image:
   image: "/v1616612671/upland-press/IMG_3435_fyofjr.jpg"
   alt_text: Whitbarrow Yew
   orientation: Standard
+  width: 
+  height: 
 edition: Limited edition of 50
 size: A4
 gallery_image:
   image: "/v1616612671/upland-press/IMG_3435_fyofjr.jpg"
   alt_text: Whitbarrow Yew
+  width: 
+  height: 
 draft: true
-publish: false
+publish: true
 
 ---
 Nunc id ex nec mi scelerisque bibendum sit amet ut lacus. Ut cursus ornare odio. Mauris ultricies sagittis turpis, ut commodo neque imperdiet non. 
