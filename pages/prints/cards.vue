@@ -71,16 +71,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.PageHeader {
-}
-// .MasonryGallery__wrapper {
-//   @include media-query('sm') {
-//     width: percentage(6/7);
-//   }
-//   @include media-query('md') {
-//     width: percentage(9/11);
-//   }
-// }
 .GridGallery {
   --space: 1.2rem;
   display: grid;

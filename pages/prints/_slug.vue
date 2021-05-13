@@ -11,13 +11,20 @@
         />
       </div>
       <div class="[ Print__details ][ flow ]" style="--flow-space: 0.5em">
-        <h1 class="[ font-header text-500 ]">
+        <h1 class="[ font-header text-600 ]">
           {{ print.title }}
         </h1>
         <div class="[ Print__meta ]">
           <p v-show="print.price">£{{ print.price }}</p>
           <p v-show="print.edition">{{ print.edition }}</p>
-          <p v-show="print.size">{{ print.size }}</p>
+          <p v-show="print.size" class="[ gap-top-400 ]">
+            <span class="[ italic ]">Paper size:</span> {{ print.size }}
+          </p>
+          <p v-show="print.printed_area">
+            <span class="[ italic ]">Printed area:</span>
+            {{ print.printed_area }}
+          </p>
+          <p v-show="print.media">{{ print.media }}</p>
         </div>
       </div>
       <div class="[ Print__description ]">
@@ -99,17 +106,17 @@ export default {
 }
 .Print--standard {
   @include media-query('sm') {
-    grid-template-columns: minmax(10px, 1fr) minmax(10px, 2fr) minmax(10px, 4fr);
+    grid-template-columns: minmax(10px, 1fr) minmax(10px, 1fr) minmax(10px, 5fr);
     grid-template-areas:
       '. image image'
       '. . details'
       '. . description';
   }
   @include media-query('md') {
-    grid-template-columns: minmax(10px, 4fr) minmax(10px, 8fr);
+    grid-template-columns: minmax(10px, 4fr) minmax(10px, 2fr) minmax(10px, 6fr);
     grid-template-areas:
-      'details image'
-      '. description';
+      'details image image'
+      '. . description';
     > * {
       grid-column: auto;
     }
