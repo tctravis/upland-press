@@ -1,6 +1,6 @@
 <template>
   <div class="[ gap-bottom-500 ]">
-    <h1 class="[ font-header text-700 lg:text-800 ]">
+    <h1 class="[ font-header text-700 sm:text-700 lg:text-800 ]">
       <slot></slot>
     </h1>
   </div>

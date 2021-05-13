@@ -75,19 +75,34 @@ export default {
 // }
 .ContentSection {
   --indent: 2rem;
-  gap: #{get-size('500')};
-  @include media-query('md') {
-    display: flex;
+  gap: #{get-size('900')};
+  @include media-query('sm') {
     .ContentSection__text {
-      width: percentage(7/11);
       > *:not(:first-child) {
         margin-left: var(--indent);
       }
     }
     .ContentSection__image {
       margin-left: var(--indent);
+    }
+  }
+  @include media-query('md') {
+    display: flex;
+    .ContentSection__text {
+      width: percentage(7/11);
+    }
+    .ContentSection__image {
+      margin-left: 0;
       width: percentage(4/11);
     }
   }
+  // @include media-query('lg') {
+  //   .ContentSection__text {
+  //     width: percentage(6/11);
+  //   }
+  //   .ContentSection__image {
+  //     width: percentage(5/11);
+  //   }
+  // }
 }
 </style>
