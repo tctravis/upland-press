@@ -19,10 +19,10 @@ content:
     sollicitudin, risus quis eleifend rutrum, nibh arcu posuere neque, quis lobortis
     enim enim eu nibh. Proin consequat felis vitae tincidunt feugiat. Morbi tempus
     pharetra nisl, id gravida tellus mollis et.</p>"
-  image: "/v1619103042/upland-press/The_Woodsman_rwl2us.jpg"
-  alt_text: The Woodsman
-  width: 2000
-  height: 2105
+  image: "/v1620921157/upland-press/IMG_3424_usfwdq.png"
+  alt_text: Linocut block in the process of being carved
+  width: 1280
+  height: 960
 - title: This is the second section
   text: "<p>Suspendisse convallis vitae turpis eget posuere. Mauris accumsan molestie
     nisl, pretium fringilla dolor imperdiet in. Donec commodo eros et nunc tristique,
