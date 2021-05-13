@@ -11,7 +11,10 @@
         />
       </div>
       <div class="[ Home__title ][ flow ]">
-        <PageTitle>Linocut prints of the northern uplands</PageTitle>
+        <PageTitle
+          header-class="[ font-header text-700 md:text-800 lg:text-900 ]"
+          >Linocut prints of the northern uplands</PageTitle
+        >
         <p>by Toby Travis</p>
       </div>
       <div class="[ Home__text ]">
