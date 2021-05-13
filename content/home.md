@@ -6,4 +6,4 @@ main_image:
   alt_text: Detail from linocut print 'Last cut of the summer'
 
 ---
-Original linocut prints inspired by the upland landscapes of northern England and the people who work in them. Whether figures or places, I strive to create portraits which capture something essential about the character of the subject.
+Original linocut prints inspired by the upland landscapes of northern England and the people who work in them. 
