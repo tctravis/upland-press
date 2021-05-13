@@ -3,3 +3,8 @@
 @import 'config/gorko'; 
 @import '~gorko/src/functions/functions';
 @import '~gorko/src/mixins/mixins';
+
+@mixin lead {  
+    @include apply-utility('font', 'header');
+    @include apply-utility('text', '500');
+}

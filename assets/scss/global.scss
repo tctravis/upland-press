@@ -31,6 +31,10 @@ h3 {
   @include apply-utility('font', 'header');
 }
 
+.lead {
+  @include lead;
+}
+
 a {
   color: currentColor;
 }
@@ -54,8 +58,8 @@ th {
 .nuxt-content {
   @extend .flow;
   // @extend .gap-bottom-500;
-  :first-of-type {
-    @extend .weight-bold;
+  > *:first-child {
+    @include lead;
   }
 }
 

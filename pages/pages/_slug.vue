@@ -65,14 +65,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// .ContentSections {
-//   @include media-query('sm') {
-//     width: percentage(6/7);
-//   }
-//   @include media-query('lg') {
-//     width: percentage(11/11);
-//   }
-// }
 .ContentSection {
   --indent: 2rem;
   gap: #{get-size('900')};
@@ -96,13 +88,5 @@ export default {
       width: percentage(4/11);
     }
   }
-  // @include media-query('lg') {
-  //   .ContentSection__text {
-  //     width: percentage(6/11);
-  //   }
-  //   .ContentSection__image {
-  //     width: percentage(5/11);
-  //   }
-  // }
 }
 </style>

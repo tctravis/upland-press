@@ -2,7 +2,7 @@
   <MainContent>
     <div class="[ PageHeader ]">
       <PageTitle>Gallery</PageTitle>
-      <div class="[ flow gap-bottom-700 ]">
+      <div class="[ lead ][ flow gap-bottom-700 ]">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
           optio ipsam debitis iusto maxime nam fuga sunt saepe, vitae
