@@ -22,4 +22,4 @@ media: Printed with Caligo oil-based inks on Zerkall printmaking paper
 ---
 Gurnal Dubs is a small tarn sunk into a bowl of heather-clad fells not far from Kendal. Small promontories break up the shoreline, one boasting a fine stand of pines.
 
-The water is clear when undisturbed, so it is disconcerting when your feet sink into thick soft mud as you step into the water. A squat stone boathouse sits on the edge of the tarn, near a flat grassy area where swimmers and families gather on fine summer days.
+The water is clear when undisturbed, so it is disconcerting when your feet sink into thick soft mud as you step into the water. A squat stone boathouse sits on the edge of the tarn, near a flat grassy area where swimmers and families congregate on fine summer days.
