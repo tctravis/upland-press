@@ -12,14 +12,6 @@
       </div>
     </div>
     <div class="[ MasonryGallery ][ ml-auto ]">
-      <!-- <Card
-        v-for="print of prints"
-        :key="print.slug"
-        :img-src="print.gallery_image.image"
-        :img-alt="print.gallery_image.alt_text"
-        :title="print.title"
-        :link="print.path"
-      /> -->
       <div v-for="print of prints" :key="print.slug">
         <NuxtLink :to="print.path">
           <CloudinaryImage
@@ -78,6 +70,7 @@ export default {
     break-inside: avoid;
     padding-bottom: var(--space);
   }
+  width: percentage(4/5);
   @include media-query('sm') {
     // columns: 2;
     width: percentage(6/7);
