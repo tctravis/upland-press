@@ -32,10 +32,10 @@ content:
   alt_text: High Borrowdale
   width: 1723
   height: 2291
-intro_text: Quisque consequat id nibh sed sodales. Duis dictum dui nec est eleifend
+intro_text: "<p>Quisque consequat id nibh sed sodales. Duis dictum dui nec est eleifend
   mattis. Aliquam sodales, ipsum non tempus sollicitudin, enim massa vehicula augue,
   vel efficitur orci justo sed enim. Morbi volutpat tincidunt facilisis. Curabitur
-  sed leo nisi. In in tellus diam. Etiam ultricies neque at rhoncus fringilla.
+  sed leo nisi. In in tellus diam. Etiam ultricies neque at rhoncus fringilla.</p>"
 
 ---
 It seems quite easy to add new content. Quite basic. What happens when I add an image in the text.
