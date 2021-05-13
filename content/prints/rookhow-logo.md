@@ -10,7 +10,7 @@ main_image:
   height: 531
   image: "/v1616612475/upland-press/2019-08-13_212509_gdb09x.jpg"
   alt_text: Rookhow bunkbarn and meeting house logo
-publish: false
+publish: true
 title: Rookhow logo
 description: Logo design for Rookhow bunkbarn
 price: ''
