@@ -37,6 +37,11 @@ export default {
       required: false,
       default: '70vmin',
     },
+    transformations: {
+      type: String,
+      required: false,
+      default: '',
+    },
   },
   computed: {
     cloudinarySrc() {
@@ -72,7 +77,6 @@ export default {
       const dpr = transformations.dpr ? transformations.dpr : '1.0'
       const transformationStr =
         'c_scale,dpr_' + dpr + ',w_' + transformations.width + '/q_auto'
-
       return transformationStr
     },
   },

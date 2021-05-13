@@ -1,18 +1,8 @@
 <template>
   <MainContent>
-    <div class="[ PageHeader md:width-three-quarters lg:width-two-thirds ]">
+    <div class="[ PageHeader ]">
       <PageTitle>Prints</PageTitle>
-      <!-- <div class="[ flow gap-bottom-700 ]">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
-          optio ipsam debitis iusto maxime nam fuga sunt saepe, vitae
-          consectetur officia repellendus est rem hic. Rem cupiditate odio
-          facilis aperiam.
-        </p>
-      </div> -->
-    </div>
-    <div class="[ GridGallery ]">
-      <div class="[ summary ]">
+      <div class="[ flow gap-bottom-700 ]">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
           optio ipsam debitis iusto maxime nam fuga sunt saepe, vitae
@@ -20,11 +10,17 @@
           facilis aperiam.
         </p>
       </div>
-      <div
+    </div>
+    <div class="[ MasonryGallery ][ ml-auto ]">
+      <!-- <Card
         v-for="print of prints"
         :key="print.slug"
-        :class="printClass(print.title)"
-      >
+        :img-src="print.gallery_image.image"
+        :img-alt="print.gallery_image.alt_text"
+        :title="print.title"
+        :link="print.path"
+      /> -->
+      <div v-for="print of prints" :key="print.slug">
         <NuxtLink :to="print.path">
           <CloudinaryImage
             :src="print.gallery_image.image"
@@ -60,99 +56,44 @@ export default {
       prints,
     }
   },
-  methods: {
-    printClass(printTitle) {
-      const printClass =
-        '[ ' + printTitle.split(' ').join('-').toLowerCase() + ' ]'
-      return printClass
-    },
-  },
 }
 </script>
 
 <style lang="scss" scoped>
 .PageHeader {
 }
-// .MasonryGallery__wrapper {
-//   @include media-query('sm') {
-//     width: percentage(6/7);
-//   }
-//   @include media-query('md') {
-//     width: percentage(9/11);
-//   }
-// }
-.GridGallery {
-  --space: 1.2rem;
-  display: grid;
-  gap: var(--space);
-
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
-  grid-template-areas:
-    'summary'
-    'last-cut-of-the-summer'
-    'gurnal-dubs'
-    'litton-mill'
-    'the-woodsman'
-    'the-heights';
-  > * {
-    grid-column: 1 / -1;
-    grid-row: auto;
-  }
+.MasonryGallery__wrapper {
   @include media-query('sm') {
-    grid-template-columns: minmax(10px, 1fr) minmax(10px, 3fr) minmax(10px, 1fr);
-    grid-template-areas:
-      'summary summary .'
-      '. last-cut-of-the-summer last-cut-of-the-summer'
-      'gurnal-dubs gurnal-dubs gurnal-dubs'
-      'litton-mill litton-mill .'
-      '. the-heights .'
-      '. the-woodsman the-woodsman';
+    width: percentage(6/7);
   }
   @include media-query('md') {
-    grid-template-columns:
-      minmax(10px, 1fr) minmax(10px, 4fr) minmax(10px, 1fr) minmax(10px, 4fr)
-      minmax(10px, 1fr);
-    grid-template-areas:
-      'summary summary summary summary .'
-      '. the-heights the-heights litton-mill litton-mill'
-      '. gurnal-dubs gurnal-dubs gurnal-dubs gurnal-dubs'
-      '. the-woodsman the-woodsman last-cut-of-the-summer last-cut-of-the-summer';
-    .the-woodsman {
-      // align-self: end;
-    }
+    width: percentage(9/11);
+  }
+}
+.MasonryGallery {
+  column-gap: 1.2rem;
+  --space: 1.2rem;
+  columns: 180px 3;
+  & > * {
+    break-inside: avoid;
+    padding-bottom: var(--space);
+  }
+  @include media-query('sm') {
+    // columns: 2;
+    width: percentage(6/7);
   }
   @include media-query('lg') {
-    grid-template-columns:
-      minmax(10px, 1fr) minmax(10px, 1fr) minmax(10px, 4fr) minmax(10px, 1fr)
-      minmax(10px, 4fr);
-    grid-template-areas:
-      'summary summary summary summary .'
-      '. the-heights the-heights litton-mill litton-mill'
-      '. gurnal-dubs gurnal-dubs gurnal-dubs gurnal-dubs'
-      '. the-woodsman the-woodsman last-cut-of-the-summer last-cut-of-the-summer';
-    .the-woodsman {
-      // align-self: start;
-    }
+    // columns: 3;
+    width: percentage(11/11);
   }
 }
 
-.summary {
-  grid-area: summary;
-}
-.last-cut-of-the-summer {
-  grid-area: last-cut-of-the-summer;
-}
-.litton-mill {
-  grid-area: litton-mill;
-}
-.the-heights {
-  grid-area: the-heights;
-}
-.the-woodsman {
-  grid-area: the-woodsman;
-}
-.gurnal-dubs {
-  grid-area: gurnal-dubs;
+.MasonryGallery__summary {
+  @include media-query('sm') {
+    margin-left: -34%;
+  }
+  @include media-query('lg') {
+    margin-left: -70%;
+  }
 }
 </style>
