@@ -24,14 +24,14 @@ content:
   width: 2000
   height: 2105
 - title: This is the second section
-  text: Suspendisse convallis vitae turpis eget posuere. Mauris accumsan molestie
-    nisl, pretium fringilla dolor imperdiet in. Donec commodo eros et nunc tristique,
-    id dictum lacus posuere. Quisque et mollis sapien. Nulla laoreet elementum mauris
-    eu laoreet. Fusce consequat ante a congue eleifend.
-  image: "/v1616612603/upland-press/highborrowdale_pvmp4l.jpg"
+  text: |-
+    Suspendisse convallis vitae turpis eget posuere. Mauris accumsan molestie nisl, pretium fringilla dolor imperdiet in. Donec commodo eros et nunc tristique, id dictum lacus posuere. Quisque et mollis sapien. Nulla laoreet elementum mauris eu laoreet. Fusce consequat ante a congue eleifend.
+
+    Praesent augue mi, molestie ac nulla quis, feugiat tincidunt eros. Phasellus sit amet viverra erat. Phasellus pellentesque, lacus eget varius malesuada, nunc dui iaculis nunc, sed congue est risus quis augue. Aenean id turpis quis lectus vulputate tempus. Nam at placerat enim. Proin leo nisl, consequat id sapien non, blandit suscipit urna. Integer dignissim lacinia placerat. Vivamus sit amet lectus urna. Duis dignissim imperdiet elit in consequat. Nullam ornare ut sem sed vestibulum.
+  image: "/v1619103043/upland-press/Coppice_xutqvs.jpg"
   alt_text: High Borrowdale
-  width: 2448
-  height: 2448
+  width: 1723
+  height: 2291
 intro_text: Quisque consequat id nibh sed sodales. Duis dictum dui nec est eleifend
   mattis. Aliquam sodales, ipsum non tempus sollicitudin, enim massa vehicula augue,
   vel efficitur orci justo sed enim. Morbi volutpat tincidunt facilisis. Curabitur
