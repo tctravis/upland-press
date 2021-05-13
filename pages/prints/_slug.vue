@@ -8,6 +8,8 @@
           :alt="print.main_image.alt_text"
           :src-set-widths="printImageSrcSets"
           :src-set-sizes="printImageSizes"
+          :width="print.main_image.width"
+          :height="print.main_image.height"
         />
       </div>
       <div class="[ Print__details ][ flow ]" style="--flow-space: 0.5em">
