@@ -5,15 +5,6 @@ fields:
 - name: publish
   type: boolean
   label: Publish?
-- name: intro_text
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Introduction
 - name: title
   type: text
   config:
@@ -24,6 +15,15 @@ fields:
   config:
     required: false
   label: Description
+- name: intro_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Introduction
 - name: content
   type: field_group_list
   fields:
@@ -39,7 +39,7 @@ fields:
       required: false
       wysiwyg: true
       schema:
-        format: markdown
+        format: html-blocks
     label: Text
   - name: image
     type: include
