@@ -5,11 +5,11 @@ gallery_image:
   image: "/v1620902853/upland-press/DSC_0246_1_zcb8g9.jpg"
   alt_text: Handmade notebooks
 main_image:
-  orientation: []
-  width: 0
-  height: 0
-  image: ''
-  alt_text: ''
+  orientation: Standard
+  width: 1280
+  height: 852
+  image: "/v1620902853/upland-press/DSC_0246_1_zcb8g9.jpg"
+  alt_text: Lorem ipsum dolor sit amet
 publish: false
 title: Handmade notebooks
 description: Hand-made linocut printed notebooks
