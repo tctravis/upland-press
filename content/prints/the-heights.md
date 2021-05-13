@@ -1,25 +1,23 @@
 ---
-title: The Heights
+title: Heights Cottage
 description: Limited edition linocut print
-price: "£80"
+price: "£50"
 main_image:
   image: "/v1619105013/upland-press/The_Heights_-_detail_txj3bj.jpg"
   alt_text: The Heights
   orientation: " Portrait"
   width: 
   height: 
-edition: Limited edition of 30
-size: A3
+edition: Limited edition of 50
+size: "?"
 gallery_image:
   image: "/v1619105013/upland-press/The_Heights_-_detail_txj3bj.jpg"
   alt_text: The Heights - limited edition linocut print
   width: 1000
   height: 1902
 publish: true
+printed_area: 11 x 30cm
+media: Printed with Caligo oil-based inks on Zerkall printmaking paper
 
 ---
-Gurnal Dubs is a small tarn nestled among heather-clad fells not far from Kendal. Off the tourist trail, it is a popular destination for open-water swimming enthusiasts and families on Sunday rambles. 
-
-Small promontories break up the shoreline, one with a stand of trees. The water is clear when undisturbed, so it is disconcerting when your feet sink into thick soft mud as you step into the water. 
-
-A solidly built stone boathouse sits on the edge of the tarn, near a flat grassy area perfect for picnics on warm summer days.
+Heights Cottage is a broad, derelict stone barn sheltering among the low hills west of Windermere. Surrounded by trees, with a cluster of small tarns behind and the broad, open Raven’s Barrow in front, it is a building imbued with a quiet charisma.
