@@ -11,7 +11,7 @@ main_image:
   image: "/v1620921260/upland-press/IMG_3045_ftwlpy.png"
   alt_text: Linocut print of rhubarb and forcer
 publish: true
-title: Late crop
+title: Late crop of rhubarb
 description: ''
 price: "25"
 edition: Limited edition of 50
