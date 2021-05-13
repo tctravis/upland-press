@@ -1,15 +1,15 @@
 ---
 title: Last Cut of the Summer
 description: Last cut of the summer
-price: "70"
+price: "40"
 main_image:
   image: "/v1619103502/upland-press/Last_cut_of_the_summer_1_o2pglf.jpg"
   alt_text: Last cut of the summer
   orientation: Standard
   width: 
   height: 
-edition: ''
-size: ''
+edition: Limited edition of 50
+size: Print size A4, printed area 9 x 21cm
 gallery_image:
   image: "/v1619104303/upland-press/Last_cut_of_the_summer_-_detail_zet9bh.jpg"
   alt_text: Detail of Last Cut of the Summer, original linocut print by Toby Travis
