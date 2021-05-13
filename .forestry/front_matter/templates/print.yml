@@ -24,7 +24,17 @@ fields:
   type: text
   config:
     required: false
-  label: size
+  label: paper size
+- name: printed_area
+  type: text
+  config:
+    required: false
+  label: printed area
+- name: media
+  type: text
+  config:
+    required: false
+  label: media
 - name: gallery_image
   type: field_group
   config: {}
