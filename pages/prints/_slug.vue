@@ -15,7 +15,7 @@
           {{ print.title }}
         </h1>
         <div class="[ Print__meta ]">
-          <p v-show="print.price">£{{ print.price }}</p>
+          <p v-show="print.price">{{ print.price }}</p>
           <p v-show="print.edition">{{ print.edition }}</p>
           <p v-show="print.size" class="[ gap-top-400 ]">
             <span class="[ italic ]">Paper size:</span> {{ print.size }}

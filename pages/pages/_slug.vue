@@ -19,14 +19,19 @@
           ></div>
         </div>
         <div class="[ ContentSection__image ]">
-          <CloudinaryImage
-            :src="content.image"
-            :alt="content.alt_text"
-            :width="content.width"
-            :height="content.height"
-            :src-set-widths="[400, 800, 1600]"
-            src-set-sizes="90vw"
-          />
+          <ImageWithCaption>
+            <template #image>
+              <CloudinaryImage
+                :src="content.image"
+                :alt="content.alt_text"
+                :width="content.width"
+                :height="content.height"
+                :src-set-widths="[400, 800, 1600]"
+                src-set-sizes="90vw"
+              />
+            </template>
+            <template #caption>{{ content.alt_text }}</template>
+          </ImageWithCaption>
         </div>
       </div>
     </div>
@@ -37,11 +42,13 @@
 import MainContent from '@/components/layout/MainContent.vue'
 import CloudinaryImage from '@/components/blocks/CloudinaryImage.vue'
 import PageTitle from '~/components/blocks/PageTitle.vue'
+import ImageWithCaption from '~/components/blocks/ImageWithCaption.vue'
 export default {
   components: {
     MainContent,
     PageTitle,
     CloudinaryImage,
+    ImageWithCaption,
   },
   async asyncData({ $content, params }) {
     const page = await $content('pages', params.slug)
