@@ -10,7 +10,7 @@ main_image:
   height: 852
   image: "/v1620902853/upland-press/DSC_0246_1_zcb8g9.jpg"
   alt_text: Lorem ipsum dolor sit amet
-publish: false
+publish: true
 title: Handmade notebooks
 description: Hand-made linocut printed notebooks
 price: "70"

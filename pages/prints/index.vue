@@ -1,7 +1,7 @@
 <template>
   <MainContent>
     <div class="[ PageHeader ]">
-      <PageTitle>Prints</PageTitle>
+      <PageTitle>Gallery</PageTitle>
       <div class="[ flow gap-bottom-700 ]">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
@@ -52,33 +52,23 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.PageHeader {
-}
-.MasonryGallery__wrapper {
-  @include media-query('sm') {
-    width: percentage(6/7);
-  }
-  @include media-query('md') {
-    width: percentage(9/11);
-  }
-}
 .MasonryGallery {
-  column-gap: 1.2rem;
-  --space: 1.2rem;
-  columns: 180px 3;
+  column-gap: #{get-size('500')};
+  --space: #{get-size('500')};
+  columns: 160px 3;
   & > * {
     break-inside: avoid;
     padding-bottom: var(--space);
   }
-  width: percentage(4/5);
-  @include media-query('sm') {
-    // columns: 2;
-    width: percentage(6/7);
-  }
-  @include media-query('lg') {
-    // columns: 3;
-    width: percentage(11/11);
-  }
+  // // width: percentage(4/5);
+  // @include media-query('sm') {
+  //   // columns: 2;
+  //   width: percentage(11/11);
+  // }
+  // @include media-query('md') {
+  //   // columns: 3;
+  //   width: percentage(10/11);
+  // }
 }
 
 .MasonryGallery__summary {

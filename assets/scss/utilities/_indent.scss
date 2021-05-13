@@ -1,0 +1,4 @@
+.indent > *:not(first-child) {
+    --indent: 2rem;
+    margin-left: var(--indent);
+}

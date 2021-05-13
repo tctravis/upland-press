@@ -11,7 +11,7 @@
         />
       </div>
       <div class="[ Print__details ][ flow ]" style="--flow-space: 0.5em">
-        <h1 class="[ font-header text-500 md:text-600 lg:text-700 ]">
+        <h1 class="[ font-header text-500 ]">
           {{ print.title }}
         </h1>
         <div class="[ Print__meta ]">
@@ -114,7 +114,7 @@ export default {
       grid-column: auto;
     }
     .Print__details {
-      // align-self: end;
+      align-self: end;
     }
   }
   // @include media-query('lg') {
@@ -138,7 +138,7 @@ export default {
       'details image'
       '. description';
     .Print__details {
-      // align-self: end;
+      align-self: end;
     }
   }
   @include media-query('widescreen') {
@@ -156,10 +156,10 @@ export default {
       'details details'
       '. description';
   }
+  // @include media-query('md') {
+  //   grid-template-columns: minmax(10px, 4fr) minmax(10px, 7fr);
+  // }
   @include media-query('md') {
-    grid-template-columns: minmax(10px, 4fr) minmax(10px, 7fr);
-  }
-  @include media-query('lg') {
     grid-template-columns: minmax(10px, 5fr) minmax(10px, 6fr);
     grid-template-areas:
       'image image'

@@ -28,6 +28,7 @@ h1 {
 h2,
 h3 {
   font-size: get-size('600');
+  @include apply-utility('font', 'header');
 }
 
 a {

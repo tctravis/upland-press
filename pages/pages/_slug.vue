@@ -1,10 +1,11 @@
 <template>
   <MainContent>
     <PageTitle>{{ page.title }}</PageTitle>
-    <div class="[ pad-bottom-900 ]">
-      <nuxt-content :document="page" />
-    </div>
-    <div class="[ ContentSections ]">
+    <div
+      class="[ pad-bottom-900 font-header text-500 flow ]"
+      v-html="page.intro_text"
+    ></div>
+    <div class="[ ContentSections ][ ml-auto ]">
       <div
         v-for="content in page.content"
         :key="content.title"
@@ -12,7 +13,10 @@
       >
         <div class="[ ContentSection__text ][ flow ]">
           <h2>{{ content.title }}</h2>
-          <div v-html="content.text"></div>
+          <div
+            class="[ ContentSection__text-wrapper ][ flow pad-bottom-500 ]"
+            v-html="content.text"
+          ></div>
         </div>
         <div class="[ ContentSection__image ]">
           <CloudinaryImage
@@ -40,7 +44,9 @@ export default {
     CloudinaryImage,
   },
   async asyncData({ $content, params }) {
-    const page = await $content('pages', params.slug).fetch()
+    const page = await $content('pages', params.slug)
+      .where({ publish: true })
+      .fetch()
     return { page }
   },
   head() {
@@ -59,22 +65,29 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+// .ContentSections {
+//   @include media-query('sm') {
+//     width: percentage(6/7);
+//   }
+//   @include media-query('lg') {
+//     width: percentage(11/11);
+//   }
+// }
 .ContentSection {
-  display: flex;
-  gap: #{get-size('400')};
-  &:nth-child(even) {
-    .ContentSection__image {
-      order: 1;
-    }
+  --indent: 2rem;
+  gap: #{get-size('500')};
+  @include media-query('md') {
+    display: flex;
     .ContentSection__text {
-      order: 2;
+      width: percentage(7/11);
+      > *:not(:first-child) {
+        margin-left: var(--indent);
+      }
+    }
+    .ContentSection__image {
+      margin-left: var(--indent);
+      width: percentage(4/11);
     }
   }
-}
-.ContentSection__text {
-  width: 60%;
-}
-.ContentSection__image {
-  width: 40%;
 }
 </style>

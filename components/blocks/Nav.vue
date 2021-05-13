@@ -1,7 +1,7 @@
 <template>
   <nav class="[ Nav ][ cluster ]">
     <div>
-      <NavLink class="[ Nav__link ]" link="/prints">Prints</NavLink>
+      <NavLink class="[ Nav__link ]" link="/prints">Gallery</NavLink>
       <NavLink class="[ Nav__link ]" link="/pages/about">About</NavLink>
     </div>
   </nav>
