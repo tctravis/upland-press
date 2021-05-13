@@ -9,13 +9,15 @@ main_image:
   width: 
   height: 
 edition: Limited edition of 50
-size: Print size A4, printed area 9 x 21cm
+size: A4
 gallery_image:
   image: "/v1619104303/upland-press/Last_cut_of_the_summer_-_detail_zet9bh.jpg"
   alt_text: Detail of Last Cut of the Summer, original linocut print by Toby Travis
   width: 
   height: 
 publish: true
+printed_area: 9 x 21cm
+media: Printed with oil-based inks on Zerkall printmaking paper
 
 ---
 My friend Rhuari lived opposite a steeply sloping meadow in the Fellside area of Kendal. The residents of the terrace he lived in were lucky enough to jointly own the field as a means of preventing it being developed.
