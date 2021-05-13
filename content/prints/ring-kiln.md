@@ -17,7 +17,9 @@ gallery_image:
   alt_text: Detail of Ring Kiln linocut print
   width: 
   height: 
-publish: true
+publish: false
+printed_area: ''
+media: ''
 
 ---
 Aliquam at ligula faucibus, accumsan magna vel, ornare ex. Praesent in nisi libero. Quisque vitae bibendum lectus, quis tincidunt nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
