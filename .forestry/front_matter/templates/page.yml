@@ -1,10 +1,19 @@
 ---
 label: Page
-hide_body: false
+hide_body: true
 fields:
 - name: publish
   type: boolean
   label: Publish?
+- name: intro_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Introduction
 - name: title
   type: text
   config:
