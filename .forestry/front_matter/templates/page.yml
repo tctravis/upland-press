@@ -24,11 +24,6 @@ fields:
   config:
     required: false
   label: Description
-- name: image
-  type: include
-  config: {}
-  template: image
-  label: Image
 - name: content
   type: field_group_list
   fields:
