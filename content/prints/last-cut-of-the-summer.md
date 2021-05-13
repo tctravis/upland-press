@@ -20,6 +20,6 @@ printed_area: 9 x 21cm
 media: Printed with oil-based inks on Zerkall printmaking paper
 
 ---
-My friend Rhuari lived opposite a steeply sloping meadow in the Fellside area of Kendal. The residents of the terrace he lived in were lucky enough to jointly own the field as a means of preventing it being developed.
+My friend Rhuari lived opposite a steeply sloping meadow in the Fellside area of Kendal. Over the years he had turned the original grass-dominated pasture into a beautiful, diverse wildflower meadow teeming with life. 
 
-Over the years he had turned the original grass-dominated pasture into a beautiful, diverse wildflower meadow teeming with life. Twice a year he cut it back in the old-fashioned way with a scythe kept finely honed with a stone. He had become skilled in the graceful sweeping rhythm needed to cut the long hay cleanly and it was a privilege to be invited to watch him work one hot morning in late summer.
+Twice a year he cut it back in the old-fashioned way with a scythe kept finely honed with a stone. He had become skilled in the graceful sweeping rhythm needed to cut the long hay cleanly and it was a privilege to be invited to watch him work one hot morning in late summer.
