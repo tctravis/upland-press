@@ -28,8 +28,8 @@ content:
   height: 2448
 
 ---
-**This is the about page**
-
 It seems quite easy to add new content. Quite basic. What happens when I add an image in the text.
 
 And we add some more text underneath.
+
+![](/v1611949894/upland-press/6771F101-DF5A-43EC-A622-5C629C0FFC42_ipt3um.jpg)
