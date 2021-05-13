@@ -13,8 +13,8 @@ size: Long thin print
 gallery_image:
   image: "/v1619784668/upland-press/DSC_0070_u7pdl5.png"
   alt_text: Detail of Gurnal Dubs limited edition linocut print
-  width: 
-  height: 
+  width: 855
+  height: 632
 publish: true
 
 ---
