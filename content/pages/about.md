@@ -8,7 +8,7 @@ alt_text: The Woodsman
 width: 1000
 height: 1053
 content:
-- title: The simplicity of linocut printmaking
+- title: Keep it simple
   text: "<p>One of the things I like about linocut printmaking is how accessible and
     simple it is. Some nice, fresh art linoleum and a set of sharp tools is all that's
     needed to make a block. For printing, a sheet of smooth printmaking paper, a wooden
@@ -20,16 +20,11 @@ content:
   width: 1280
   height: 960
 - title: This is the second section
-  text: "<p>Suspendisse convallis vitae turpis eget posuere. Mauris accumsan molestie
-    nisl, pretium fringilla dolor imperdiet in. Donec commodo eros et nunc tristique,
-    id dictum lacus posuere. Quisque et mollis sapien. Nulla laoreet elementum mauris
-    eu laoreet. Fusce consequat ante a congue eleifend. Praesent augue mi, molestie
-    ac nulla quis, feugiat tincidunt eros.</p><p>Phasellus sit amet viverra erat.
-    Phasellus pellentesque, lacus eget varius malesuada, nunc dui iaculis nunc, sed
-    congue est risus quis augue. Aenean id turpis quis lectus vulputate tempus. Nam
-    at placerat enim. Proin leo nisl, consequat id sapien non, blandit suscipit urna.
-    Integer dignissim lacinia placerat. Vivamus sit amet lectus urna. Duis dignissim
-    imperdiet elit in consequat. Nullam ornare ut sem sed vestibulum.</p>"
+  text: "<p>For me, making a linocut print is like solving a puzzle. This is particularly
+    true for small-scale black and white images. The subject, whether landscape or
+    portrait, needs reducing to a bare minimum of lines and shapes. Light, dark and
+    shade are suggested using a range of simple white shapes cut into a dark background.
+    </p>"
   image: "/v1619103043/upland-press/Coppice_xutqvs.jpg"
   alt_text: Coppice
   width: 1723
