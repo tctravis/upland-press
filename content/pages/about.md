@@ -8,17 +8,13 @@ alt_text: The Woodsman
 width: 1000
 height: 1053
 content:
-- title: This is the about page
-  text: "<p>Duis sagittis laoreet nunc, a viverra massa venenatis in. Praesent mattis
-    erat neque, quis dapibus nisi ultricies in. Phasellus mattis in nisi ac feugiat.
-    Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec feugiat ligula
-    id finibus efficitur. Etiam accumsan elit at sagittis fringilla. Mauris semper
-    mollis libero, ut aliquam augue viverra quis.</p><p>Quisque interdum ornare eros
-    quis accumsan. Aenean vel vulputate tellus, in molestie lectus. Pellentesque dapibus
-    id tortor sit amet vestibulum. Donec varius ligula in felis commodo sodales. Morbi
-    sollicitudin, risus quis eleifend rutrum, nibh arcu posuere neque, quis lobortis
-    enim enim eu nibh. Proin consequat felis vitae tincidunt feugiat. Morbi tempus
-    pharetra nisl, id gravida tellus mollis et.</p>"
+- title: The simplicity of linocut printmaking
+  text: "<p>One of the things I like about linocut printmaking is how accessible and
+    simple it is. Some nice, fresh art linoleum and a set of sharp tools is all that's
+    needed to make a block. For printing, a sheet of smooth printmaking paper, a wooden
+    spoon, a tube of ink and a roller - plus elbow grease - is all that's required.
+    It is essentially a popular, democratic art form - affordable to produce and to
+    buy.</p>"
   image: "/v1620921157/upland-press/IMG_3424_usfwdq.png"
   alt_text: Linocut block in the process of being carved
   width: 1280
@@ -38,9 +34,9 @@ content:
   alt_text: Coppice
   width: 1723
   height: 2291
-intro_text: "<p>Aliquam sodales, ipsum non tempus sollicitudin, enim massa vehicula
-  augue, vel efficitur orci justo sed enim. Morbi volutpat tincidunt facilisis. Curabitur
-  sed leo nisi. In in tellus diam. Etiam ultricies neque at rhoncus fringilla.</p>"
+intro_text: "<p>Hi, my name is Toby Travis and I'm a linocut printmaker based in Cumbria,
+  England. My prints are inspired by the landscapes of northern England, the people
+  who work in them and the plants and wildlife who inhabit them.</p>"
 
 ---
 It seems quite easy to add new content. Quite basic. What happens when I add an image in the text.
