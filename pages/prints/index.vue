@@ -4,10 +4,9 @@
       <PageTitle>Gallery</PageTitle>
       <div class="[ lead ][ flow gap-bottom-700 ]">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
-          optio ipsam debitis iusto maxime nam fuga sunt saepe, vitae
-          consectetur officia repellendus est rem hic. Rem cupiditate odio
-          facilis aperiam.
+          All prints are limited-edition and hand-made using oil-based inks and
+          acid-free printmaking paper. The books are folded and bound by hand
+          with hand-printed covers.
         </p>
       </div>
     </div>
