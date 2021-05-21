@@ -20,7 +20,7 @@ content:
     of working in the medium of small-scale, primarily black-and-white, linocuts is
     to capture this distinct, individual character within a highly simplified form,
     working with a very limited palette of marks and shapes.</p>"
-  image: ''
+  image: "/v1619784860/upland-press/Free-burn_wcdftq.png"
   alt_text: ''
   width: 
   height: 
