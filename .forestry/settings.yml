@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: static/data/site-settings.json
+  path: content/data/site-settings.json
   label: Site settings
 - type: directory
   path: ''
