@@ -20,6 +20,6 @@ printed_area: ''
 media: ''
 
 ---
-Quisque placerat cursus nisi eget congue. Vivamus venenatis commodo tempus. Ut et lorem finibus leo pharetra vulputate. Praesent consectetur ultricies accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+Litton Mill is a small, peaceful village squeezed into the bottom of a steep-sided limestone gorge in the Peak District. I was commissioned to make this print as a present for a school friend who grew up in one of the 19th century workers' cottages in the village. 
 
-Morbi eu convallis mauris. Nunc varius in elit vitae fringilla. Duis porttitor iaculis neque, id pellentesque dolor convallis sit amet. Praesent in varius tortor, ac mollis nibh. Nulla at porttitor augue. Quisque tincidunt nec justo sed dignissim. Suspendisse eleifend fringilla ultricies.
+When I visited on a rainy August day the river was in full spate and the trees were dripping with water. Looking from the bridge across the mill pond, the village appeared to be in the process of being engulfed by thick, verdant foliage.
