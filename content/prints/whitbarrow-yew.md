@@ -1,6 +1,7 @@
 ---
 title: Whitbarrow Yew
-description: Nunc id ex nec mi scelerisque bibendum sit amet ut lacus.
+description: A linocut print of a yew tree sketched on the summit of Whitbarrow in
+  the Lake District.
 price: "20"
 main_image:
   image: "/v1616612671/upland-press/IMG_3435_fyofjr.jpg"
@@ -21,8 +22,6 @@ printed_area: ''
 media: ''
 
 ---
-Nunc id ex nec mi scelerisque bibendum sit amet ut lacus. Ut cursus ornare odio. Mauris ultricies sagittis turpis, ut commodo neque imperdiet non. 
+Whitbarrow is a broad limestone plateau in the South Lakes. It has a squat, bulky form, edged with sheer cliffs on the west and gentle wooded slopes to the east. On the summit the south-westerly winds off Morecambe Bay twist the trees into expressive, contorted forms.
 
-Morbi nec nulla mauris. Duis quis ante vestibulum, commodo risus eu, euismod est. Ut turpis erat, eleifend non ipsum quis, dignissim lobortis erat. Donec tristique tortor lacus, et interdum justo scelerisque vel. Etiam vel feugiat purus. 
-
-Morbi bibendum eleifend felis ac elementum. Ut suscipit libero in justo pulvinar, ut consectetur metus facilisis. Quisque pharetra eros quis libero maximus, sit amet volutpat risus finibus.
+Larch, birch and ash are common on Whitbarrow, but one of its glories are the yew trees which cling to it's slopes and grow from cracks in the limestone pavements. Stunted and asymmetric, most of their growth occurs on the side facing away from the winds off the sea.

@@ -12,7 +12,8 @@ main_image:
   alt_text: Rookhow bunkbarn and meeting house logo
 publish: true
 title: Rookhow logo
-description: Logo design for Rookhow bunkbarn
+description: Linocut print design for a logo for the Rookhow Quaker Meeting House
+  and Bunkbarn
 price: ''
 edition: ''
 size: ''
@@ -20,4 +21,6 @@ printed_area: 15 x 15cm
 media: Printed with Caligo oil-based inks on Zerkall printmaking paper
 
 ---
-Phasellus et justo enim. Maecenas porttitor, nulla quis porttitor fringilla, velit arcu pulvinar ligula, vitae mattis sapien nisi sit amet justo. Morbi hendrerit justo vitae auctor lacinia.
+This print is a logo design for the Rookhow Quaker Meeting House and Bunkbarn in Rusland, east of Windermere.
+
+The 18th century Quaker Meeting House is surrounded by the ancient Quaker Wood.
