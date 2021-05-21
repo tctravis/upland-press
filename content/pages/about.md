@@ -8,6 +8,22 @@ alt_text: The Woodsman
 width: 1000
 height: 1053
 content:
+- title: Portraits of a human landscape
+  text: "<p>Although often wild and sparsely inhabited, the uplands of northern England
+    are man-made, cultural landscapes. I am interested in how people interact with
+    nature to form this landscape, both in the past and present. The stone-built barns
+    and walls which frame and punctuate the landscape are relics of past human labour.
+    The coppiced woodland and few remaining wildflower meadows are rich natural habitats
+    which depend on continued human interaction for their existence.</p><p>Whether
+    images of people or landscapes, all my prints are intended as portraits, an attempt
+    to capture something personal and distinctive about the subject. The challenge
+    of working in the medium of small-scale, primarily black-and-white, linocuts is
+    to capture this distinct, individual character within a highly simplified form,
+    working with a very limited palette of marks and shapes.</p>"
+  image: ''
+  alt_text: ''
+  width: 
+  height: 
 - title: Keep it simple
   text: "<p>One of the things I like about linocut printmaking is how accessible and
     simple it is. Some nice, fresh art linoleum and a set of sharp tools is all that's
