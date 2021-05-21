@@ -1,5 +1,5 @@
 ---
-title: Heights Cottage
+title: The Heights
 description: Limited edition linocut print
 price: "£50"
 main_image:
@@ -20,4 +20,6 @@ printed_area: 11 x 30cm
 media: Printed with Caligo oil-based inks on Zerkall printmaking paper
 
 ---
-Heights Cottage is a broad, derelict stone barn sheltering among the low hills west of Windermere. Surrounded by trees, with a cluster of small tarns behind and the broad, open Raven’s Barrow in front, it is a building imbued with a quiet charisma.
+The Heights is a derelict stone barn hidden among the low fells to the east of Windermere. 
+
+Surrounded by trees, with a cluster of small tarns behind and the craggy pastures of Raven’s Barrow in front, it is a rugged and charismatic building.
