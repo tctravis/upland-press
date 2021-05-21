@@ -1,5 +1,5 @@
 ---
-title: Last Cut of the Summer
+title: Last cut of the summer
 description: Last cut of the summer
 price: "40"
 main_image:
@@ -20,6 +20,8 @@ printed_area: 9 x 21cm
 media: Printed with oil-based inks on Zerkall printmaking paper
 
 ---
-My friend Rhuari lived opposite a steeply sloping meadow in the Fellside area of Kendal. Over the years he had turned the original grass-dominated pasture into a beautiful, diverse wildflower meadow teeming with life. 
+My friend Rhuari lived opposite a steep meadow in the Fellside area of Kendal. Over the years he had worked to transform a grass-dominated pasture into a diverse wildflower meadow teeming with life.
 
-Twice a year he cut it back in the old-fashioned way with a scythe kept finely honed with a stone. He had become skilled in the graceful sweeping rhythm needed to cut the long hay cleanly and it was a privilege to be invited to watch him work one hot morning in late summer.
+Twice a year he cut it back in the purist way with a scythe, keenly honed to sharpness with a stone. He had become skilled in the smooth sweeping rhythm needed to cut the long hay cleanly. 
+
+Shortly after taking the sketches for this photo he moved, leaving behind the meadow as a wonderful legacy for the new owners of his house.
