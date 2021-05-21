@@ -47,7 +47,7 @@ content:
   height: 2291
 intro_text: "<p>Hi, my name is Toby Travis and I'm a linocut printmaker based in Cumbria,
   England. My prints are inspired by the landscapes of northern England, the people
-  who tend them and the plants, birds and animals who animate them.</p>"
+  who work in them and the plants, birds and animals who animate them.</p>"
 
 ---
 It seems quite easy to add new content. Quite basic. What happens when I add an image in the text.
