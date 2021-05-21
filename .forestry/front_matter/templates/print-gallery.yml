@@ -1,4 +1,13 @@
 ---
 label: Print Gallery
 hide_body: true
-fields: []
+fields:
+- name: introduction_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Introduction text
