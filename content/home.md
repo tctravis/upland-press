@@ -6,4 +6,4 @@ main_image:
   alt_text: Detail from linocut print 'Last cut of the summer'
 
 ---
-Original linocut prints inspired by the upland landscapes of northern England - the people who work to shape them, and the wildlife which inhabits them.
+Original linocut prints inspired by the landscapes, people and wildlife of the uplands of Cumbria and the Pennines.
