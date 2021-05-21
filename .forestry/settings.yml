@@ -4,10 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Global
 - type: document
   path: content/data/site-settings.json
   label: Site settings
-  match: "**/*"
 - type: directory
   path: ''
   label: Images
@@ -15,6 +16,17 @@ sections:
   match: "**/*"
   templates:
   - image
+- type: heading
+  label: Prints
+- type: directory
+  path: content/prints
+  label: Prints
+  create: all
+  match: "**/*"
+  templates:
+  - print
+- type: heading
+  label: Pages
 - type: document
   path: content/home.md
   label: Home
@@ -25,13 +37,6 @@ sections:
   match: "**/*"
   templates:
   - page
-- type: directory
-  path: content/prints
-  label: Prints
-  create: all
-  match: "**/*"
-  templates:
-  - print
 upload_dir: upland-press
 public_path: ''
 front_matter_path: ''
