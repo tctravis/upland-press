@@ -9,13 +9,6 @@ sections:
 - type: document
   path: content/data/site-settings.json
   label: Site settings
-- type: directory
-  path: ''
-  label: Images
-  create: none
-  match: "**/*"
-  templates:
-  - image
 - type: heading
   label: Prints
 - type: directory
@@ -30,6 +23,10 @@ sections:
 - type: document
   path: content/home.md
   label: Home
+- type: document
+  path: content/prints/index.md
+  label: Print gallery
+  match: "**/*"
 - type: directory
   path: content/pages
   label: Pages
