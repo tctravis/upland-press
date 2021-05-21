@@ -5,7 +5,7 @@ price: "£50"
 main_image:
   image: "/v1619103041/upland-press/The_Heights_ongva6.jpg"
   alt_text: The Heights
-  orientation: " Portrait"
+  orientation: Standard
   width: 
   height: 
 edition: Limited edition of 50
