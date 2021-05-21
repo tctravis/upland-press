@@ -24,9 +24,8 @@ sections:
   path: content/home.md
   label: Home
 - type: document
-  path: content/prints/index.md
+  path: content/print-gallery.md
   label: Print gallery
-  match: "**/*"
 - type: directory
   path: content/pages
   label: Pages
