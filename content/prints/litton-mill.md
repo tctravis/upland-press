@@ -16,7 +16,7 @@ gallery_image:
   width: 
   height: 
 publish: true
-printed_area: ''
+printed_area: 15 x 20.5cm
 media: ''
 
 ---

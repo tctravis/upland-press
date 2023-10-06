@@ -9,7 +9,7 @@ main_image:
   width: 
   height: 
 edition: Limited edition of 50
-size: 26 x 36cm
+size: 36 x 26cm
 gallery_image:
   image: "/v1619784668/upland-press/DSC_0070_u7pdl5.png"
   alt_text: Detail of Gurnal Dubs limited edition linocut print
