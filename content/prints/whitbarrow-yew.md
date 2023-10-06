@@ -17,7 +17,7 @@ gallery_image:
   width: 623
   height: 640
 draft: true
-publish: true
+publish: false
 printed_area: ''
 media: ''
 

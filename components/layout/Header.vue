@@ -13,15 +13,15 @@
         </div>
         <Nav class="[ ml-auto ]" />
         <div class="[ Header__social ][ gap-left-400 flex-row ]">
-          <NuxtLinkOrAnchorLink
+          <!-- <NuxtLinkOrAnchorLink
             :to="instagramUser"
             link-class="[ with-icon with-icon--text-hidden pad-200 ]"
             ><InstagramIcon /><span class="visually-hidden"
               >Instagram</span
             ></NuxtLinkOrAnchorLink
-          >
+          > -->
           <NuxtLinkOrAnchorLink
-            :to="'mailto:'"
+            :to="'mailto:tobytravis@gmail.com'"
             link-class="[ with-icon with-icon--text-hidden pad-200 ]"
             ><MailIcon /><span class="visually-hidden"
               >Email</span
@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import { HomeIcon, InstagramIcon, MailIcon } from 'vue-feather-icons'
+import { HomeIcon, MailIcon } from 'vue-feather-icons'
 
 import { mapState } from 'vuex'
 import NuxtLinkOrAnchorLink from '@/components/ui/NuxtLinkOrAnchorLink.vue'
@@ -42,7 +42,7 @@ import Nav from '~/components/blocks/Nav.vue'
 export default {
   components: {
     HomeIcon,
-    InstagramIcon,
+    // InstagramIcon,
     MailIcon,
     Nav,
     NuxtLinkOrAnchorLink,

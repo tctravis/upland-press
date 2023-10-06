@@ -10,7 +10,7 @@ main_image:
   height: 901
   image: "/v1620921260/upland-press/IMG_3045_ftwlpy.png"
   alt_text: Linocut print of rhubarb and forcer
-publish: true
+publish: false
 title: Late crop of rhubarb
 description: ''
 price: "25"

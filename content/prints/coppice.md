@@ -5,7 +5,7 @@ main_image:
   alt_text: Pellentesque at arcu sem
 title: Coppice
 description: Nam sed pellentesque dolor. Fusce sit amet ante nulla
-price: '25.00'
+price: 
 edition: Limited edition of 30
 size: A4
 gallery_image:

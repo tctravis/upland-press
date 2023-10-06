@@ -7,9 +7,9 @@ main_image:
   height: 
 title: Litton Mill
 description: Morbi eu convallis mauris. Nunc varius in elit vitae fringilla
-price: '50.00'
+price: 
 edition: Limited edition of 50
-size: A4
+size: 26 x 36cm
 gallery_image:
   image: "/v1619104389/upland-press/Litton_Mill_-_detail_bfovua.jpg"
   alt_text: Detail of Litton Mill linocut by Toby Travis

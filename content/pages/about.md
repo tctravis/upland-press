@@ -35,7 +35,7 @@ content:
   alt_text: Linocut block in the process of being carved
   width: 1280
   height: 960
-- title: This is the second section
+- title: Solving a puzzle
   text: "<p>For me, making a linocut print is like solving a puzzle. This is particularly
     true for small-scale black and white images. The subject, whether landscape or
     portrait, needs reducing to a bare minimum of lines and shapes. Light, dark and
@@ -47,7 +47,7 @@ content:
   height: 2291
 intro_text: "<p>Hi, my name is Toby Travis and I'm a linocut printmaker based in Cumbria,
   England. My prints are inspired by the landscapes of northern England, the people
-  who work in them and the plants, birds and animals who animate them.</p>"
+  who work in them and the plants and animals which inhabit them.</p>"
 
 ---
 It seems quite easy to add new content. Quite basic. What happens when I add an image in the text.

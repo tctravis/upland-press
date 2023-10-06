@@ -3,11 +3,7 @@
     <div class="[ PageHeader ]">
       <PageTitle>Gallery</PageTitle>
       <div class="[ lead ][ flow gap-bottom-700 ]">
-        <p>
-          All prints are limited-edition and hand-made using oil-based inks and
-          acid-free printmaking paper. The books are folded and bound by hand
-          with hand-printed covers.
-        </p>
+        {{ printGallery.introduction_text }}
       </div>
     </div>
     <div class="[ MasonryGallery ][ ml-auto ]">
@@ -43,8 +39,10 @@ export default {
       .where({ publish: true })
       .sortBy('createdAt', 'asc')
       .fetch()
+    const printGallery = await $content('print-gallery').fetch()
     return {
       prints,
+      printGallery,
     }
   },
 }
