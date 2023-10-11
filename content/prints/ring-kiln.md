@@ -19,7 +19,7 @@ gallery_image:
   height: 
 publish: false
 printed_area: ''
-media: ''
+media: Printed with Caligo oil-based inks on Zerkall printmaking paper
 
 ---
 Aliquam at ligula faucibus, accumsan magna vel, ornare ex. Praesent in nisi libero. Quisque vitae bibendum lectus, quis tincidunt nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.

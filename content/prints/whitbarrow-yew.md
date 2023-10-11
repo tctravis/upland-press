@@ -19,7 +19,7 @@ gallery_image:
 draft: true
 publish: false
 printed_area: ''
-media: ''
+media: Printed with Caligo oil-based inks on Zerkall printmaking paper
 
 ---
 Whitbarrow is a broad limestone plateau in the South Lakes. It has a squat, bulky form, edged with sheer cliffs on the west and gentle wooded slopes to the east. On the summit the south-westerly winds off Morecambe Bay twist the trees into expressive, contorted forms.

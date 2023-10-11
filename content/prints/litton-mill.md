@@ -17,7 +17,7 @@ gallery_image:
   height: 
 publish: true
 printed_area: 15 x 20.5cm
-media: ''
+media: Printed with Caligo oil-based inks on Zerkall printmaking paper
 
 ---
 Litton Mill is a small, peaceful village squeezed into the bottom of a steep-sided limestone gorge in the Peak District. I was commissioned to make this print as a present for a school friend who grew up in one of the 19th century workers' cottages in the village. 
